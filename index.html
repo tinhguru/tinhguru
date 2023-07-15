@@ -60,8 +60,7 @@
         currentLocale: 'en',
         NavItems: '{}',
         errors: {
-          general: 'There was an error connecting to the page. < br / > Make sure you are not offline.
-          ',
+          general: 'There was an error connecting to the page. < br / > Make sure you are not offline.',
           password: 'Incorrect name/password combination',
           tryAgain: 'Try again'
         },
@@ -288,7 +287,7 @@
         return null == defs[a] && (defs[a] = new Def), defs[a]
       }
       window.waitForDeferred = function(b, a, c) {
-        let d = window ? .getDeferred ? .(b);
+        let d = window ?.getDeferred ?.(b);
         d ? d.promise.then(a) : c && ["complete", "interactive"].includes(document.readyState) ? setTimeout(a, 1) : c ? document.addEventListener("DOMContentLoaded", a) : console.error(`Deferred  does not exist`);
       };
     </script>
