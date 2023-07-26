@@ -29,71 +29,6 @@
     <link rel="stylesheet" href="assets/css/nice-select.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <script src="https://kit.fontawesome.com/f34c1ea8ea.js" crossorigin="anonymous"></script>
-
-    <!-- <script nonce="e1ccabca-6efb-4392-bd60-0014e33fb0d0">
-        (function (w, d) {
-            ! function (bg, bh, bi, bj) {
-                bg[bi] = bg[bi] || {};
-                bg[bi].executed = [];
-                bg.zaraz = {
-                    deferred: [],
-                    listeners: []
-                };
-                bg.zaraz.q = [];
-                bg.zaraz._f = function (bk) {
-                    return function () {
-                        var bl = Array.prototype.slice.call(arguments);
-                        bg.zaraz.q.push({
-                            m: bk,
-                            a: bl
-                        })
-                    }
-                };
-                for (const bm of ["track", "set", "debug"]) bg.zaraz[bm] = bg.zaraz._f(bm);
-                bg.zaraz.init = () => {
-                    var bn = bh.getElementsByTagName(bj)[0],
-                        bo = bh.createElement(bj),
-                        bp = bh.getElementsByTagName("title")[0];
-                    bp && (bg[bi].t = bh.getElementsByTagName("title")[0].text);
-                    bg[bi].x = Math.random();
-                    bg[bi].w = bg.screen.width;
-                    bg[bi].h = bg.screen.height;
-                    bg[bi].j = bg.innerHeight;
-                    bg[bi].e = bg.innerWidth;
-                    bg[bi].l = bg.location.href;
-                    bg[bi].r = bh.referrer;
-                    bg[bi].k = bg.screen.colorDepth;
-                    bg[bi].n = bh.characterSet;
-                    bg[bi].o = (new Date).getTimezoneOffset();
-                    if (bg.dataLayer)
-                        for (const bt of Object.entries(Object.entries(dataLayer).reduce(((bu, bv) => ({
-                                ...bu[1],
-                                ...bv[1]
-                            })), {}))) zaraz.set(bt[0], bt[1], {
-                            scope: "page"
-                        });
-                    bg[bi].q = [];
-                    for (; bg.zaraz.q.length;) {
-                        const bw = bg.zaraz.q.shift();
-                        bg[bi].q.push(bw)
-                    }
-                    bo.defer = !0;
-                    for (const bx of [localStorage, sessionStorage]) Object.keys(bx || {}).filter((bz => bz
-                        .startsWith("_zaraz_"))).forEach((by => {
-                        try {
-                            bg[bi]["z_" + by.slice(7)] = JSON.parse(bx.getItem(by))
-                        } catch {
-                            bg[bi]["z_" + by.slice(7)] = bx.getItem(by)
-                        }
-                    }));
-                    bo.referrerPolicy = "origin";
-                    bo.src = "/cdn-cgi/zaraz/s.js?z=" + btoa(encodeURIComponent(JSON.stringify(bg[bi])));
-                    bn.parentNode.insertBefore(bo, bn)
-                };
-                ["complete", "interactive"].includes(bh.readyState) ? zaraz.init() : bg.addEventListener(
-                    "DOMContentLoaded", zaraz.init)
-            }(w, d, "zarazData", "script");
-        })(window, document); -->
     </script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
     <script type="text/javascript">
@@ -116,7 +51,6 @@
             });
         }
     </script>
-
 </head>
 
 <body>
@@ -360,111 +294,30 @@
                     </div>
                 </div>
                 <div class="row justify-content-between">
-                    <div class="offset-xl-1 col-xl-5 col-lg-6 col-md-6 col-sm-6"
-                        style="display: flex;flex-direction:column">
-                        <div class="box snake" style="height: 75%;margin-bottom: 10px;">
-                            <div class="gallery-img small-img "
-                                style="background-image: url(./assets/img/gallery/pet-care_fleas-and-ticks_main-image.jpg);background-position:center;background-size:contain;overflow: hidden;">
-                            </div>
-                            <div class="overlay">
-                                <div class="overlay-content">
-                                    <a href="./blog/fleas-ticks.html"><i class="fa-solid fa-angles-right"></i></i></a>
-                                </div>
-                            </div>
+                    <div class="containerB">
+                        <div class="boxB">
+                            <a href="./blog/animals-pets.html">
+                                <img src="./assets/img/gallery/kevin-turcios-rls2bfqYh8E-unsplash.jpg">
+                            </a>
+                            <span>Cat and Dot</span>
                         </div>
-                        <div class="subject-blog">
-                            <div class="subject-main">
-                                <h3>
-                                    <a href="./blog/fleas-ticks.html" style="font-weight: bold;">GENERAL PET CARE: Fleas
-                                        and
-                                        Ticks</a>
-                                </h3>
-                            </div>
-                            <div class="description-blog">
-                                <a href="./blog/fleas-ticks.html" style="color: #212529;">
-                                    Fleas and ticks are two of the most frequent pet care concerns in America....
-                                </a>
-                            </div>
+                        <div class="boxB">
+                            <a href="./blog/health-and-weight-loss.html">
+                                <img src="./assets/img/gallery/element5-digital-CpBBsda2eRI-unsplash.jpg">
+                            </a>
+                            <span>Health and Weight Loss</span>
                         </div>
-                    </div>
-                    <div class="col-xl-5 col-lg-6 col-lg-6 col-md-6 col-sm-6">
-                        <div class="box snake" style="height: 75%;margin-bottom: 10px;">
-                            <div class="gallery-img small-img "
-                                style="background-image: url(assets/img/gallery/image-2.png);background-position:center;background-size:contain;overflow: hidden;">
-                            </div>
-                            <div class="overlay">
-                                <div class="overlay-content">
-                                    <a href="./assets/img/gallery/image-2.png"><i
-                                            class="fa-solid fa-angles-right"></i></i></a>
-                                </div>
-                            </div>
+                        <div class="boxB">
+                            <a href="./blog/crypto-and-blockchain.html">
+                                <img src="./assets/img/gallery/behnam-norouzi-f7gSf9Meor4-unsplash.jpg">
+                            </a>
+                            <span>Crypto and Blockchain</span>
                         </div>
-                        <div class="subject-blog">
-                            <div class="subject-main">
-                                <h3>
-                                    <a href="./blog/survey-in-2023.html" style="font-weight: bold;">Credit Cards:
-                                        [Survey] 49% Of Consumers Plan To Travel More In 2023</a>
-                                </h3>
-                            </div>
-                            <div class="description-blog">
-                                <a href="./blog/survey-in-2023.html" style="color: #212529;">
-                                    Americans were committed to traveling in 2022...
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="offset-xl-1 col-xl-5 col-lg-6 col-md-6 col-sm-6">
-                        <div class="box snake" style="height: 75%;margin-bottom: 10px;">
-                            <div class="gallery-img small-img "
-                                style="background-image: url(assets/img/gallery/gallery3.png);background-position:center;background-size:contain;overflow: hidden;">
-                            </div>
-                            <div class="overlay">
-                                <div class="overlay-content">
-                                    <a href="./assets/img/gallery/gallery2.png"><i
-                                            class="fa-solid fa-angles-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="subject-blog">
-                            <div class="subject-main">
-                                <h3>
-                                    <a href="./index.html" style="font-weight: bold;">How To Write A Blog Post In 3
-                                        Steps: The Ultimate Beginner’s Guide!</a>
-                                </h3>
-                            </div>
-                            <div class="description-blog">
-                                <a href="./index.html" style="color: #212529;">
-                                    It may be time to rethink everything you've ever learned about
-                                    how to succeed in your professional life.
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-5 col-lg-6 col-md-6 col-sm-6">
-                        <div class="box snake" style="height: 75%;margin-bottom: 10px;">
-                            <div class="gallery-img small-img "
-                                style="background-image: url(assets/img/gallery/gallery4.png);background-position:center;background-size:contain;overflow: hidden;">
-                            </div>
-                            <div class="overlay">
-                                <div class="overlay-content">
-                                    <a href="./assets/img/gallery/gallery3.png"><i
-                                            class="fa-solid fa-angles-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="subject-blog">
-                            <div class="subject-main">
-                                <h3>
-                                    <a href="./index.html" style="font-weight: bold;">Pinterest Pin Design Ideas for
-                                        Beginners</a>
-                                </h3>
-                            </div>
-                            <div class="description-blog">
-                                <a href="./index.html" style="color: #212529;">
-                                    It may be time to rethink everything you've ever learned about
-                                    how to succeed in your professional life.
-                                </a>
-                            </div>
+                        <div class="boxB">
+                            <a href="./blog/energy.html">
+                                <img src="./assets/img/gallery/christian-dubovan-gxsRL8B_ZqE-unsplash.jpg">
+                            </a>
+                            <span>Energy</span>
                         </div>
                     </div>
                 </div>
@@ -627,6 +480,32 @@
         gtag('js', new Date());
 
         gtag('config', 'UA-23581568-13');
+    </script>
+    <script>
+        const cards = document.querySelectorAll(".card");
+
+        function isElementInViewport(el) {
+            const rect = el.getBoundingClientRect();
+            return (
+                rect.top >= 0 &&
+                rect.left >= 0 &&
+                rect.bottom <=
+                (window.innerHeight || document.documentElement.clientHeight) &&
+                rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+            );
+        }
+
+        function isCardVisible() {
+            for (card of cards) {
+                isElementInViewport(card) ?
+                    card.classList.add("isVisible") :
+                    card.classList.remove("isVisible");
+            }
+        }
+
+        document.addEventListener("DOMContentLoaded", isCardVisible);
+        window.addEventListener("scroll", isCardVisible);
+        window.addEventListener("resize", isCardVisible);
     </script>
 </body>
 
