@@ -5652,7 +5652,7 @@ del {
 /*# sourceMappingURL=style.css.map */
 
 /* CSS fontend */
-.containerB {
+#containerB {
   display: flex;
   width: 100%;
   padding: 0% 2% 2% 4%;
