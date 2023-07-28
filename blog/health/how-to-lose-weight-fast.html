@@ -1,0 +1,739 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title> TINHGURU | Have a good day!</title>
+    <meta name="description" content="TINHGURU | Have a good day!">
+    <meta name="keywords" content="Welcome to tinhguru">
+    <meta name="author" content="Affiliate Marketing">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="shortcut icon" type="image/x-icon" href="../../assets/img/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../../assets/css/slicknav.css">
+    <link rel="stylesheet" href="../../assets/css/flaticon.css">
+    <link rel="stylesheet" href="../../assets/css/progressbar_barfiller.css">
+    <link rel="stylesheet" href="../../assets/css/gijgo.css">
+    <link rel="stylesheet" href="../../assets/css/animate.min.css">
+    <link rel="stylesheet" href="../../assets/css/animated-headline.css">
+    <link rel="stylesheet" href="../../assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="../../assets/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="../../assets/css/themify-icons.css">
+    <link rel="stylesheet" href="../../assets/css/slick.css">
+    <link rel="stylesheet" href="../../assets/css/nice-select.css">
+    <link rel="stylesheet" href="../../assets/css/style.css">
+    <script src="https://kit.fontawesome.com/f34c1ea8ea.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+
+    <!-- <script nonce="e1ccabca-6efb-4392-bd60-0014e33fb0d0">
+        (function (w, d) {
+            ! function (bg, bh, bi, bj) {
+                bg[bi] = bg[bi] || {};
+                bg[bi].executed = [];
+                bg.zaraz = {
+                    deferred: [],
+                    listeners: []
+                };
+                bg.zaraz.q = [];
+                bg.zaraz._f = function (bk) {
+                    return function () {
+                        var bl = Array.prototype.slice.call(arguments);
+                        bg.zaraz.q.push({
+                            m: bk,
+                            a: bl
+                        })
+                    }
+                };
+                for (const bm of ["track", "set", "debug"]) bg.zaraz[bm] = bg.zaraz._f(bm);
+                bg.zaraz.init = () => {
+                    var bn = bh.getElementsByTagName(bj)[0],
+                        bo = bh.createElement(bj),
+                        bp = bh.getElementsByTagName("title")[0];
+                    bp && (bg[bi].t = bh.getElementsByTagName("title")[0].text);
+                    bg[bi].x = Math.random();
+                    bg[bi].w = bg.screen.width;
+                    bg[bi].h = bg.screen.height;
+                    bg[bi].j = bg.innerHeight;
+                    bg[bi].e = bg.innerWidth;
+                    bg[bi].l = bg.location.href;
+                    bg[bi].r = bh.referrer;
+                    bg[bi].k = bg.screen.colorDepth;
+                    bg[bi].n = bh.characterSet;
+                    bg[bi].o = (new Date).getTimezoneOffset();
+                    if (bg.dataLayer)
+                        for (const bt of Object.entries(Object.entries(dataLayer).reduce(((bu, bv) => ({
+                                ...bu[1],
+                                ...bv[1]
+                            })), {}))) zaraz.set(bt[0], bt[1], {
+                            scope: "page"
+                        });
+                    bg[bi].q = [];
+                    for (; bg.zaraz.q.length;) {
+                        const bw = bg.zaraz.q.shift();
+                        bg[bi].q.push(bw)
+                    }
+                    bo.defer = !0;
+                    for (const bx of [localStorage, sessionStorage]) Object.keys(bx || {}).filter((bz => bz
+                        .startsWith("_zaraz_"))).forEach((by => {
+                        try {
+                            bg[bi]["z_" + by.slice(7)] = JSON.parse(bx.getItem(by))
+                        } catch {
+                            bg[bi]["z_" + by.slice(7)] = bx.getItem(by)
+                        }
+                    }));
+                    bo.referrerPolicy = "origin";
+                    bo.src = "/cdn-cgi/zaraz/s.js?z=" + btoa(encodeURIComponent(JSON.stringify(bg[bi])));
+                    bn.parentNode.insertBefore(bo, bn)
+                };
+                ["complete", "interactive"].includes(bh.readyState) ? zaraz.init() : bg.addEventListener(
+                    "DOMContentLoaded", zaraz.init)
+            }(w, d, "zarazData", "script");
+        })(window, document); -->
+    </script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            // https://dashboard.emailjs.com/admin/account
+            emailjs.init('Q1DOompwO_MrSi_C-');
+        })();
+    </script>
+    <script type="text/javascript">
+        window.onload = function () {
+            document.getElementById('contact-form').addEventListener('submit', function (event) {
+                event.preventDefault();
+                console.log('SUCCESS!');
+
+                // these IDs from the previous steps
+                emailjs.sendForm('service_ied9c3s', 'template_y1qd22i', this)
+                    .then(function () {
+                        document.getElementById("dmform-success").style.display = 'block';
+                    }, function (error) {});
+            });
+        }
+    </script>
+    <style>
+        .colless li {
+            list-style-type: disc;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="preloader-active">
+        <div class="preloader d-flex align-items-center justify-content-center">
+            <div class="preloader-inner position-relative">
+                <div class="preloader-circle"></div>
+                <div class="preloader-img pere-text">
+                    <img src="../assets/img/logo/loder.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <header>
+        <div class="header-area header-transparent">
+            <div class="main-header header-sticky">
+                <div class="container-fluid">
+                    <div class="menu-wrapper d-flex align-items-center justify-content-between">
+
+                        <div class="logo">
+                            <a href="../../index.html"><img src="../../assets/img/logo/logo.png" alt=""></a>
+                        </div>
+
+                        <div class="main-menu f-right d-none d-lg-block">
+                            <nav>
+                                <ul id="navigation">
+                                    <li><a href="../../index.html">Home</a></li>
+                                    <li><a href="../../index.html#about">About</a></li>
+                                    <li><a href="../../index.html#protfolio">Experience</a></li>
+                                    <li class="active"><a href="../../index.html#blog">Blog</a>
+                                        <!-- <ul class="submenu">
+                                            <li><a href="blog.html">Blog</a></li>
+                                            <li><a href="blog_details.html">Blog Details</a></li>
+                                            <li><a href="elements.html">Elements</a></li>
+                                        </ul> -->
+                                    </li>
+                                    <li><a href="#contact">Contact</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+
+                        <div class="header-info-right d-none d-lg-block">
+                            <a href="https://www.facebook.com/tranvantinh1211" class="btn header-btn">Let's Talk </a>
+                        </div>
+
+                        <div class="col-12">
+                            <div class="mobile_menu d-block d-lg-none"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <main>
+
+        <div class="our-services pt-top section-bg1">
+            <div class="container">
+                <div class="rwo">
+                    <div class="col-xl-12">
+                        <div class="section-tittle mb-75 text-center">
+                            <h2>How To Lose Weight Fast: 15 Expert-Backed Tips</h2>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="single-services">
+
+                            <div class="services-cap">
+                                <center style="position:relative" class="about-img">
+                                    <img src="https://www.forbes.com/health/wp-content/uploads/2022/01/how_to_lose_weight_fast.jpeg.jpg"
+                                        style="width: 50%;">
+                                </center>
+
+                                <div>&#160;</div>
+                                <div>&#160;</div>
+                                <div>People strive to lose weight for myriad reasons, and many fall into the fad diet
+                                    trap promising real results fast. While there are certainly ways to accelerate your
+                                    weight loss efforts, it’s important to understand that shedding pounds too quickly
+                                    can actually backfire.</div>
+                                <div>&#160;</div>
+                                <div>Like so many parts of life, safe, successful and sustainable weight loss is more
+                                    about the journey and less about a scale-based destination and rapidly approaching
+                                    deadline. Read on for expert advice on the best ways to lose weight—and keep it off.
+                                </div>
+                                <div>&#160;</div>
+                                <div>
+                                    <h1 style="padding-bottom: 1rem;">Why Losing Weight Fast Isn’t the Best Goal</h1>
+                                </div>
+                                <div>&#160;</div>
+                                <div>Though the allure of the “lose 5 pounds in a week” diet myth is strong, there are
+                                    many reasons why speedy shedding may actually work against your best weight loss
+                                    efforts.</div>
+                                <div>&#160;</div>
+                                <div>First, when people lose weight rapidly, especially via fad or crash diets, they are
+                                    typically unable to maintain it because the weight they lose is often more muscle
+                                    mass and water and less fat mass compared to people who lose weight gradually.</div>
+                                <div>&#160;</div>
+                                <div>“Maintaining lean muscle is important in weight loss because it plays a key role in
+                                    metabolism,” says certified health coach and author of Sugar Shock and Beyond Sugar
+                                    Shock Connie Bennett. “Muscle helps you burn more calories. But when you lose weight
+                                    too quickly, you lose muscle and your body slows down calorie burning. Fast weight
+                                    loss can even cause permanent slowing of metabolism.”</div>
+                                <div>&#160;</div>
+                                <div>Rapid weight loss often leads to the dreaded yo-yo weight cycling many chronic
+                                    dieters experience. In fact, a study of former contestants on NBC’s weight loss
+                                    television show “The Biggest Loser” found the more pounds dropped quickly, the more
+                                    the participant’s metabolism slowed. The study also found that the contestants
+                                    regained a substantial amount of their lost weight in the six years following the
+                                    competition.</div>
+                                <div>&#160;</div>
+                                <div>Another Australian study of 200 participants in The Lancet found that while dieters
+                                    in the study lost the same amount of weight, the group that lost weight slowly lost
+                                    10% more body fat and 50% less lean muscle than the rapid weight loss group</div>
+                                <div>&#160;</div>
+                                <div>Further compounding the issue, when people lose weight rapidly, appetite often
+                                    increases as metabolism decreases, making it almost impossible to keep the pounds
+                                    off. A study in Obesity reports our bodies prompt us to eat 100 calories more per
+                                    day for every pound lost</div>
+                                <div>&#160;</div>
+                                <div>Popular fad diets also very often result in nutrient deficiencies. “And rapid
+                                    weight loss—especially when you cut carbs—is often largely water,” says registered
+                                    dietitian Ellen Albertson, Ph.D., author of Rock Your Midlife. “What’s more, if
+                                    daily calories are low, the body may also use muscle mass as fuel, further reducing
+                                    metabolism, as muscle mass is metabolically active.</div>
+                                <div>&#160;</div>
+                                <div>The bottom line: Shedding weight sensibly is the way to go. Experts usually say a
+                                    safe rate is losing around half a pound to 2 pounds a week. With that goal in mind,
+                                    here are some tried-and-true ways to drop pounds and keep them off for good.</div>
+                                <div>&#160;</div>
+
+                                <div>
+                                    <h1 style="padding-bottom: 1rem; font-weight: 500;">15 Tips for Safe and Sustainable
+                                        Weight Loss,
+                                        According to Experts</h1>
+                                </div>
+                                <div>
+                                    <h2 style="padding-bottom: 1rem; font-weight: bold;">1. Implement Long-Term
+                                        Lifestyle and Behavior
+                                        Changes</h2>
+                                </div>
+                                <div>&#160;</div>
+                                <div>When trying to lose weight, ban the word “diet,” suggests Albertson. Dieting can be
+                                    unpleasant and make you hungry, so you constantly think about food, which is exactly
+                                    what you don’t want when trying to lose weight. Instead, she recommends thinking of
+                                    weight loss as a part of getting healthier and concentrating on taking care of your
+                                    body first.</div>
+                                <div>&#160;</div>
+                                <div>“Weight loss is complicated and you don’t have total control over the number on the
+                                    scale, but you do have control over what you eat, how much you move and other
+                                    factors that impact weight, such as stress and sleep,” says Albertson. She suggests
+                                    setting SMART—specific, measurable, achievable, relevant and time-sensitive—goals
+                                    and rewarding yourself when you hit them.</div>
+                                <div>&#160;</div>
+
+                                <div>
+                                    <h2 style="padding-bottom: 1rem; font-weight: bold;">2. Focus on the First 5% to 10%
+                                    </h2>
+                                </div>
+                                <div>&#160;</div>
+                                <div>Instead of saying, “I need to lose 25 pounds,” and overwhelming yourself with what
+                                    seems like an impossible goal, look toward the health benefits that can come from
+                                    even modest weight loss.</div>
+                                <div>&#160;</div>
+                                <div>“Set smaller, achievable targets,” suggests Bennett. “Losing only 5% to 10% of your
+                                    total body weight (TBW) can greatly improve your health and lower your risk for
+                                    illnesses, such as type 2 diabetes, stroke, cardiovascular disease and certain types
+                                    of cancer.”</div>
+                                <div>&#160;</div>
+                                <div>
+                                    <h2 style="padding-bottom: 1rem; font-weight: bold;">3. Reduce Your Intake of
+                                        Ultra-Processed Carbs and
+                                        Sweets</h2>
+                                </div>
+                                <div>&#160;</div>
+                                <div>A study in the Journal of the American Medical Association reveals what you eat is
+                                    most important for weight loss. The pounds will come off more quickly if you
+                                    improve the quality of the foods you ingest.</div>
+                                <div>&#160;</div>
+                                <div>“One of the healthiest ways to shed weight is to reduce your intake of sugar
+                                    and rapidly metabolized carbohydrates,” says Bennett. “In particular, you want
+                                    to cut out or drastically curtail your intake of high-glycemic-load foods, such
+                                    as sugary snacks, processed carbs and soft drinks. When you avoid or cut back on
+                                    French fries, chips, crackers and the like, you’ll speed up your weight loss.”
+                                </div>
+                                <div>&#160;</div>
+                                <div>
+                                    <h2 style="padding-bottom: 1rem; font-weight: bold;">4. Eat More Plants</h2>
+                                </div>
+                                <div>&#160;</div>
+                                <div>Research shows a plant-based diet not only promotes weight loss, but is also
+                                    easier to stick to than a low-calorie diet. Plus, it’s nutrient dense and has
+                                    numerous health benefits.</div>
+                                <div>&#160;</div>
+                                <div>“Produce supports weight loss because it’s rich in fiber and water, which are
+                                    both calorie-free yet take up space in your stomach so you feel full,” says
+                                    Albertson. In fact, a Brazilian study found a direct correlation between
+                                    increased fruit and vegetable consumption and enhanced weight loss.</div>
+                                <div>&#160;</div>
+                                <div>Albertson suggests aiming to consume five daily servings of produce to start
+                                    and working up to seven to nine servings a day. “Start your day with a green
+                                    smoothie, have a salad or cut up vegetables with your lunch and eat fruit for
+                                    snacks and desserts,” she says. “For supper, have more stir frys, incorporate
+                                    veggies into your pasta dishes and stir them into soups.”</div>
+                                <div>&#160;</div>
+                                <div>
+                                    <h2 style="padding-bottom: 1rem; font-weight: bold;">5. Pump Up Your Protein</h2>
+                                </div>
+                                <div>&#160;</div>
+                                <div>Increasing your protein consumption can help reduce appetite and help prevent
+                                    the loss of muscle mass.</div>
+                                <div>&#160;</div>
+                                <div>“Eating around 25 to 30 grams of protein—two scoops of protein powder or 4
+                                    ounces of chicken breast—per meal can improve appetite control and manage your
+                                    body weight,” says Dr. Albertson. “The best way to do it is to make sure you
+                                    have one serving of high-quality protein per meal.”</div>
+                                <div>&#160;</div>
+                                <div>Albertson also says women older than 50 need significantly more protein (1 to
+                                    1.5 grams per kilogram of body weight daily) than men and younger women (who
+                                    require .8 grams of protein per kilogram of body weight daily). “Women need more
+                                    protein after 50, especially as they approach menopause, because decreases in
+                                    the hormone estrogen result in a loss of skeletal muscle mass, strength and
+                                    regenerative capacity,” she explains.</div>
+                                <div>&#160;</div>
+                                <div>
+                                    <h2 style="padding-bottom: 1rem; font-weight: bold;">6. Drink More Water</h2>
+                                </div>
+                                <div>&#160;</div>
+                                <div>Research shows drinking more water is associated with weight loss independent
+                                    of diet and exercise[7]. Ample water intake can help increase satiety and combat
+                                    sugar cravings. Water is also necessary for lipolysis, the body’s process of
+                                    burning fat for energy.</div>
+                                <div>&#160;</div>
+                                <div>“I suggest following the eight by eight rule—8 ounces of water eight times
+                                    throughout the day—for a minimum water intake recommendation,” says
+                                    Florida-based celebrity trainer Jordan Morello who works for the fitness
+                                    platform Sweat Factor. “My clients are usually surprised once they add this
+                                    [rule] into their own routine [by] how much this simple thing can curb cravings
+                                    and leave you more satiated throughout the day.”</div>
+                                <div>&#160;</div>
+                                <div>Another water trick? Try drinking two cups of water before each meal. Studies
+                                    have shown this simple move can increase weight loss as well</div>
+                                <div>&#160;</div>
+                                <div>
+                                    <h2 style="padding-bottom: 1rem; font-weight: bold;">7. Eat a Well-Rounded Breakfast
+                                    </h2>
+                                </div>
+                                <div>&#160;</div>
+                                <div>Breakfast skippers, listen up. If you’re trying to lose weight, skimping on
+                                    morning fuel is not the way to go. In fact, studies consistently show skipping
+                                    breakfast is associated with overweight and obesity[</div>
+                                <div>&#160;</div>
+                                <div>Additionally, a study in the Proceedings of the Nutrition Society found people
+                                    who don’t eat breakfast tend to have poorer quality diets overall, and they
+                                    skimp on nutrients, such as vitamin D, calcium and iron.</div>
+                                <div>&#160;</div>
+                                <div>But not just any breakfast will do. “To think more clearly, perform more
+                                    efficiently and be in better moods, you want a well-rounded,
+                                    blood-sugar-balanced first meal of the day with ample protein, healthy fats and
+                                    what I call quality carbs like fresh berries,” says Bennett</div>
+                                <div>&#160;</div>
+                                <div>
+                                    <h2 style="padding-bottom: 1rem; font-weight: bold;">8. Stand Up and Move More</h2>
+                                </div>
+                                <div>&#160;</div>
+                                <div>One of the easiest ways to shed weight is to up your non-exercise activity
+                                    thermogenesis (NEAT)—the energy expended for everything you do outside of
+                                    eating, sleeping or exercising. Little changes like carrying your groceries
+                                    instead of pushing a cart, parking farther away from the entrance to the mall,
+                                    taking the stairs instead of the elevator or even tapping your toe can lead to
+                                    hundreds of extra calories burned.</div>
+                                <div>&#160;</div>
+                                <div>Or try to stand more than you sit. Studies show that simply replacing sitting
+                                    with standing leads to a greater daily energy expenditure, which directly
+                                    translates into more calories burned and ultimately pounds shed</div>
+                                <div>&#160;</div>
+                                <div>For example, if you weigh 160 pounds and alternate sitting and standing, you
+                                    can burn approximately 35 additional calories an hour—an extra 280 calories a
+                                    day, 1,400 calories a week and about 70,000 calories a year.</div>
+                                <div>&#160;</div>
+                                <div>“Set a timer on your phone, Fitbit or computer to remind you to get up and move
+                                    around every hour,” says Albertson. “You’ll burn more calories and may lower
+                                    your blood sugar and risk of heart disease.”</div>
+                                <div>&#160;</div>
+                                <div>
+                                    <h2 style="padding-bottom: 1rem; font-weight: bold;">9. Hit the Weights</h2>
+                                </div>
+                                <div>&#160;</div>
+                                <div>Muscle burns more calories than fat. So how do you build more muscle? Strength
+                                    training.</div>
+                                <div>&#160;</div>
+                                <div>Adding resistance training to your weight loss plan is a smart idea not only
+                                    because of the calories you’ll burn while working out, but also because of the
+                                    “afterburn effect.”</div>
+                                <div>&#160;</div>
+                                <div>Known as excess post-exercise oxygen consumption, EPOC reflects how long oxygen
+                                    uptake remains elevated after exercise in order to help muscles recover. This
+                                    elevation boosts metabolism both during and after strength training sessions.</div>
+                                <div>&#160;</div>
+                                <div>And the more muscle you add to your frame, the higher your resting metabolic rate
+                                    (RMR). Your RMR determines how many calories your body needs to function at rest.
+                                    The greater your RMR, the more you can eat and not gain weight./div>
+                                    <div>&#160;</div>
+                                    <div>“While cardiovascular exercise is often emphasized, strength training is key
+                                        for dropping pounds and maintaining weight loss, especially after age 50 because
+                                        muscle mass—which burns calories—declines at a rate of 1% to 2% per year,” says
+                                        Albertson. “Strength training can slow down muscle mass decline.”</div>
+                                    <div>&#160;</div>
+                                    <div>
+                                        <h2 style="padding-bottom: 1rem; font-weight: bold;">10. Don’t Go Overboard</h2>
+                                    </div>
+                                    <div>&#160;</div>
+                                    <div>Cutting calories too drastically or working out 24/7 may actually backfire when
+                                        it comes to weight loss. Most people think shedding pounds requires draconian
+                                        measures to get results, but allowing yourself adequate recovery time is more
+                                        productive. </div>
+                                    <div>&#160;</div>
+                                    <div>“Many people, when they get frustrated that they haven’t lost weight, will
+                                        double down on the stressor (i.e. catabolic phase) that they are doing,” says
+                                        certified personal trainer Rob Darnbrough, CEO and co-founder of The Smart Fit
+                                        Method in California. “For example, they’ll run extra miles, double up on the
+                                        amount of time they spend at the gym and/or eat less food. However, all of the
+                                        results we desire from doing the above things actually occur during the anabolic
+                                        recovery phase.”</div>
+                                    <div>&#160;</div>
+                                    <div>During the anabolic phase, the body builds muscle mass and loses fat mass while
+                                        recovering from the stressor, explains Darnbrough. So, instead of pushing
+                                        yourself to a breaking point, which ends up leading to overtraining and
+                                        diminished results, put as much energy into rest and nutrition as you do into
+                                        workouts. “To create sustainable results, try to balance your ratio of stress to
+                                        recovery,” says Darnbrough.</div>
+                                    <div>&#160;</div>
+                                    <div>
+                                        <h2 style="padding-bottom: 1rem; font-weight: bold;">11. Check in With an
+                                            Accountability Partner</h2>
+                                    </div>
+                                    <div>&#160;</div>
+                                    <div>Sometimes losing weight can feel lonely, but you don’t have to do it all by
+                                        yourself.</div>
+                                    <div>&#160;</div>
+                                    <div>Research shows being accountable works. In one study, two-thirds of
+                                        participants who joined a weight loss program with friends maintained their
+                                        weight loss for six months after the meetings ended, compared to just a quarter
+                                        of those who attended on their own[12]. Of course, many organizations also
+                                        suggest having a sponsor or champion on your path to weight loss.</div>
+                                    <div>&#160;</div>
+                                    <div>“One of the best ways to consistently eat better and shed weight steadily is to
+                                        check in every day with an accountability partner,” suggests Bennett. “Your
+                                        accountability partner doesn’t need to be your bestie, favorite co-worker or
+                                        partner. Just find someone with similar weight loss goals. You don’t need to
+                                        talk every day, either. Just text each other to share that you’re eating healthy
+                                        foods and staying on track. If you’re tempted by junk foods, you can lean on
+                                        your partner, too. That’s when you may want to call them.”</div>
+                                    <div>&#160;</div>
+                                    <div>
+                                        <h2 style="padding-bottom: 1rem; font-weight: bold;">12. Watch Less Television
+                                        </h2>
+                                    </div>
+                                    <div>&#160;</div>
+                                    <div>Couch surfers wanting to lose weight should turn off the TV—in fact, the more
+                                        television people watch, the more weight they gain.</div>
+                                    <div>&#160;</div>
+                                    <div>One study that collected data from more than 50,000 middle-aged women over six
+                                        years found that for every two hours the participants spent watching television
+                                        each day, they had a 23% higher risk of obesity and a 14% higher risk of
+                                        developing diabetes</div>
+                                    <div>&#160;</div>
+                                    <div>Excess television watching is correlated with extra pounds primarily because
+                                        it’s a sedentary activity that often also leads to mindless eating. So, turn it
+                                        off or maybe change the channel to an exercise program instead.</div>
+                                    <div>&#160;</div>
+                                    <div>
+                                        <h2 style="padding-bottom: 1rem; font-weight: bold;">13. Reconnect With Your
+                                            Satiety Cues</h2>
+                                    </div>
+                                    <div>&#160;</div>
+                                    <div>Speaking of mindless eating, you can reprogram your brain for weight loss by
+                                        tuning back into your body’s natural “I’m hungry” and “I’m full” cues.</div>
+                                    <div>&#160;</div>
+                                    <div>“Dieting combined with eating on the run or while multitasking—driving,
+                                        watching TV, playing with your phone—can really disconnect you from your natural
+                                        signals of hunger and satiety,” says Albertson. “Plus, as children, we also
+                                        learned to clean our plates rather than eat until satisfied.” Add the fact that
+                                        portion sizes have grown significantly—as much as 60% for things like snack
+                                        foods— and the result is consistent overeating.</div>
+                                    <div>&#160;</div>
+                                    <div>“Instead, try to eat when you’re hungry and stop when you are satisfied rather
+                                        than stuffed,” says Albertson. “Instead of tracking your food, try tracking how
+                                        hungry you are before, during and after meals to get back in touch with these
+                                        signals.”</div>
+                                    <div>&#160;</div>
+                                    <div>
+                                        <h2 style="padding-bottom: 1rem; font-weight: bold;">14. Get More Sleep</h2>
+                                    </div>
+                                    <div>&#160;</div>
+                                    <div>Getting a good night’s sleep is one of the best things you can do to maintain a
+                                        healthy weight and overall health. Studies show that poor sleep is associated
+                                        with weight gain and other health disorders. When researchers analyzed 16 years’
+                                        worth of data on 68,183 middle-aged American women, they found those who slept
+                                        no more than five hours per night were 15% more likely to have obesity compared
+                                        to those who slept seven hours a night</div>
+                                    <div>&#160;</div>
+                                    <div>Insufficient sleep may also affect the production of appetite-regulating
+                                        hormones ghrelin and leptin, which can lead people to feel hungrier throughout
+                                        the day. Additionally, poor sleep increases cortisol and can result in
+                                        harder-to-lose body and belly fat.</div>
+                                    <div>&#160;</div>
+                                    <div>“Most of us can’t control what time we have to get up, but we can control when
+                                        we go to bed, so counting back seven to nine hours from the time you have to
+                                        wake up is a great tip,” says Darnbrough. “I also encourage the 3-2-1 rule,
+                                        which means stop working three hours before bed, stop eating two hours before
+                                        bed and stop digital stimuli one hour before bed to improve your deep sleep and
+                                        REM.”</div>
+                                    <div>&#160;</div>
+                                    <div>
+                                        <h2 style="padding-bottom: 1rem; font-weight: bold;">15. Find Non-Edible
+                                            Substitutes for Self-Soothing</h2>
+                                    </div>
+                                    <div>&#160;</div>
+                                    <div>There’s a reason it’s called “comfort food.” However, emotional eating can
+                                        quickly derail all weight loss efforts.</div>
+                                    <div>&#160;</div>
+                                    <div>“When you feel stressed, which raises cortisol levels, rather than reaching for
+                                        food to feel better—since eating triggers the release of the feel-good
+                                        neurotransmitter dopamine—raise levels of oxytocin, the love hormone, either by
+                                        soothing touch, playing with a pet or getting a hug,” suggests Albertson.</div>
+                                    <div>&#160;</div>
+                                    <div>Animal studies have found oxytocin reduces calories consumed and has positive
+                                        effects on metabolism[15]. A small human study also found that giving men
+                                        oxytocin over an eight-week period promoted weight loss</div>
+                                    <div>&#160;</div>
+                                    <div>“While more research is needed to understand exactly how increasing oxytocin
+                                        can impact weight and appetite, if you’re experiencing difficult emotions, a
+                                        self-compassion break will allow you to give yourself the care you need so you
+                                        will be less likely to eat,” says Albertson. “Remember the acronym ‘HALT,’ which
+                                        stands for hungry, angry/anxious, lonely and tired. If you are physiologically
+                                        hungry, eat. If you are experiencing difficult emotions, ask, ‘What do I need?’
+                                        and give yourself what you truly need. If you’re not hungry, it isn’t food.”
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </main>
+    <footer>
+        <div class="footer-wrappr">
+            <div class="footer-top">
+                <section class="wantToWork-area ">
+                    <div class="container">
+                        <div class="wants-wrapper w-padding2">
+                            <div class="row align-items-center justify-content-between">
+                                <div class="col-xl-7 col-lg-9 col-md-8">
+                                    <div class="wantToWork-caption wantToWork-caption2">
+                                        <h2>Do you want to know more about me?</h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <div id="contact" class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+
+                            <div class="form-wrapper">
+                                <div class="row ">
+                                    <div class="col-xl-12">
+                                        <div class="small-tittle mb-30">
+                                            <h4>Contact Me</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <form id="contact-form" action="#" method="POST">
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-6">
+                                            <div class="form-box user-icon mb-25">
+                                                <input type="text" name="dmform-0" required placeholder="Your name">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-6">
+                                            <div class="form-box email-icon mb-25">
+                                                <input type="text" name="dmform-1" pattern=".+@*\.*" size="30" required
+                                                    placeholder="Email">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-6">
+                                            <div class="form-box email-icon mb-25">
+                                                <input type="text" name="dmform-2" placeholder="Phone">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12">
+                                            <div class="form-box message-icon mb-25">
+                                                <textarea name="dmform-3" id="message" required
+                                                    placeholder="Message"></textarea>
+                                            </div>
+                                            <div class="submit-info">
+                                                <button class="submit-btn2" type="submit">Send Message</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                                <div id="dmform-success"
+                                    style="display:none;color: #FFEFAE;font-weight: 300; font-size: 14px; line-height: 2; margin-bottom: 0px;">
+                                    Thank you for contacting us. <br>We will get back to you as soon as possible </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom-area">
+                <div class="container">
+                    <div class="footer-border">
+                        <div class="row align-items-center">
+                            <div class="col-xl-4 col-lg-4">
+                                <div class="footer-social">
+                                    <a href="https://twitter.com/Tinhtranva11092"><i class="fab fa-twitter"></i></a>
+                                    <a href="https://www.facebook.com/tranvantinh1211"><i
+                                            class="fab fa-facebook-f"></i></a>
+                                    <a href="https://www.instagram.com/tinhtran12111"><i
+                                            class="fab fa-instagram"></i></a>
+                                    <a href="mailto:support@tinhguru.com"><i class="fa-regular fa-envelope"></i></a>
+                                    <a href="https://tinhguru.com/index.html"><i class="fa-solid fa-globe"></i></a>
+                                </div>
+                            </div>
+                            <div class="col-xl-8 col-lg-8">
+                                <div class="footer-copy-right f-right">
+                                    <p>
+                                        Copyright &copy;
+                                        <script>
+                                            document.write(new Date().getFullYear());
+                                        </script> All rights reserved | This template is made with <i
+                                            class="fa fa-heart" aria-hidden="true"></i> by <a
+                                            href="https://colorlib.com" target="_blank">Colorlib</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div id="back-top" style="color: white;">
+        <a title="Go to Top" href="" style="text-decoration:none;color:white"> <i class="fas fa-level-up-alt"></i></a>
+    </div>
+
+    <script src="../../assets/js/vendor/modernizr-3.5.0.min.js"></script>
+
+    <script src="../../assets/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="../../assets/js/popper.min.js"></script>
+    <script src="../../assets/js/bootstrap.min.js"></script>
+
+    <script src="../../assets/js/jquery.slicknav.min.js"></script>
+
+    <script src="../../assets/js/owl.carousel.min.js"></script>
+    <script src="../../assets/js/slick.min.js"></script>
+
+    <script src="../../assets/js/wow.min.js"></script>
+    <script src="../../assets/js/animated.headline.js"></script>
+    <script src="../../assets/js/jquery.magnific-popup.js"></script>
+
+    <script src="../../assets/js/gijgo.min.js"></script>
+
+    <script src="../../assets/js/jquery.nice-select.min.js"></script>
+    <script src="../../assets/js/jquery.sticky.js"></script>
+
+    <script src="../../assets/js/jquery.barfiller.js"></script>
+
+    <script src="../../assets/js/jquery.counterup.min.js"></script>
+    <script src="../../assets/js/waypoints.min.js"></script>
+    <script src="../../assets/js/jquery.countdown.min.js"></script>
+    <script src="../../assets/js/hover-direction-snake.min.js"></script>
+
+    <script src="../../assets/js/contact.js"></script>
+    <script src="../../assets/js/jquery.form.js"></script>
+    <script src="../../assets/js/jquery.validate.min.js"></script>
+    <script src="../../assets/js/mail-script.js"></script>
+    <script src="../../assets/js/jquery.ajaxchimp.min.js"></script>
+
+    <script src="../../assets/js/plugins.js"></script>
+    <script src="../../assets/js/main.js"></script>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-23581568-13');
+    </script>
+    <!-- <script defer
+        src="https://static.cloudflareinsights.com/beacon.min.js/v2cb3a2ab87c5498db5ce7e6608cf55231689030342039"
+        integrity="sha512-DI3rPuZDcpH/mSGyN22erN5QFnhl760f50/te7FTIYxodEF8jJnSFnfnmG/c+osmIQemvUrnBtxnMpNdzvx1/g=="
+        data-cf-beacon='{"rayId":"7e7310482850045f","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2023.4.0","si":100}'
+        crossorigin="anonymous"> -->
+    </script>
+</body>
+
+</html>
