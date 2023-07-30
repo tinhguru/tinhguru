@@ -5703,8 +5703,8 @@ div>a:hover {
 
 /* body{
   margin-top:20px;
-  /* background:#eee; */
-}
+  /* background:#eee; 
+}*/
 
 @media (min-width: 0) {
   .g-mr-15 {
@@ -5825,4 +5825,14 @@ div>a:hover {
   color: #666666;
   font-size: 15px;
   margin-right: 10px;
+}
+
+ul>li>a{
+  color: #670000;
+  font-weight: 500;
+}
+
+ul>li>a:hover{
+  color: #670000;
+  text-decoration: underline;
 }
