@@ -81,7 +81,7 @@ technologyBlog("technologyId");
 
 /* 4. traveler.html */
 function travelerBlog(id) {
-  fetch("../js/json/data-technology.json")
+  fetch("../js/json/data-traveler.json")
     .then((res) => {
       return res.json();
     })

@@ -1,23 +1,9 @@
 [
     {
-        "link": "1",
-        "name": "2",
-        "img": "3",
-        "desc": "4",
-        "date": "abcd"
-    },
-    {
-        "link": "5",
-        "name": "6",
-        "img": "7",
-        "desc": "8",
-        "date": "abcd"
-    },
-    {
-        "link": "9",
-        "name": "10",
-        "img": "11",
-        "desc": "12",
-        "date": "abcd"
+        "link": "https://www.yarrah.com/en/blog/feeding-your-dog-vegetarian-vegan-or-flex",
+        "name": "Feeding your dog vegetarian, vegan or flex",
+        "img": "https://www.yarrah.com/thumbnail/a2/01/24/1644824305/Yarrah-dog-vegan-vegetarian-flexitarian_1920x1920.jpg",
+        "desc": "Some owners have their personal reasons for keeping their dog on a meat-free diet. And you may want to give you dog less or no meat if it is allergic to animal proteins. We will tell you all about vegan, vegetarian and flex diets for your canine.",
+        "date": "May 05, 2023"
     }
 ]

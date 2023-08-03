@@ -1,23 +1,9 @@
 [
     {
-        "link": "1",
-        "name": "2",
-        "img": "3",
-        "desc": "4",
-        "date": "abcd"
-    },
-    {
-        "link": "5",
-        "name": "6",
-        "img": "7",
-        "desc": "8",
-        "date": "abcd"
-    },
-    {
-        "link": "9",
-        "name": "10",
-        "img": "11",
-        "desc": "12",
-        "date": "abcd"
+        "link": "./travel/survey-in-2023.html",
+        "name": "[Survey] 49% Of Consumers Plan To Travel More In 2023",
+        "img": "../assets/img/gallery/scott-graham-OQMZwNd3ThU-unsplash.jpg",
+        "desc": "Americans were committed to traveling in 2022....",
+        "date": "Feb 02, 2023"
     }
 ]

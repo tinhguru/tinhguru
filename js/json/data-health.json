@@ -1,23 +1,9 @@
 [
     {
-        "link": "1",
-        "name": "2",
-        "img": "3",
-        "desc": "4",
-        "date": "abcd"
-    },
-    {
-        "link": "5",
-        "name": "6",
-        "img": "7",
-        "desc": "8",
-        "date": "abcd"
-    },
-    {
-        "link": "9",
-        "name": "10",
-        "img": "11",
-        "desc": "12",
-        "date": "abcd"
+        "link": "https://www.mayoclinic.org/healthy-lifestyle/weight-loss/in-depth/weight-loss/art-20047752",
+        "name": "Weight loss: 6 strategies for success",
+        "img": "https://www.weightlossresources.co.uk/pimg/wlr/6/6-behaviours-successful-weight-loss-article.png",
+        "desc": "Follow these proven strategies to reduce your weight and boost your health.",
+        "date": "May 05, 2023"
     }
 ]
