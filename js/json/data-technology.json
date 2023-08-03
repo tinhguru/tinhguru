@@ -1,23 +1,60 @@
-[
-    {
-        "link": "1",
-        "name": "2",
-        "img": "3",
-        "desc": "4",
-        "date": "abcd"
+{
+    "tech": [
+        {
+            "link": "https://nextui.org/blog/nextui-v2",
+            "name": "Introducing NextUI Version 2.0",
+            "img": "../assets/img/gallery/nextui-banner.webp",
+            "desc": "We're thrilled to announce the release of NextUI v2.0. Our mission has always been to create a more efficient, flexible, beautiful and customizable UI library for you. And, this update is a huge leap towards achieving that.",
+            "date": "May 05, 2023"
+        },
+        {
+            "link": "./technology/information-technology.html",
+            "name": "Emerging Trends in Information Technology for 2023",
+            "img": "https://www.columbiasouthern.edu/media/5wopakhy/emerging-trends-in-information-technology-2023.jpg",
+            "desc": "The world of information technology is continuously expanding. Staying updated about the latest industry trends can help you whether you're an established professional or just starting out in IT.",
+            "date": "May 05, 2023"
+        },
+        {
+            "link": "./technology/synaptics-enables-lenovo.html",
+            "name": "Synaptics Enables Lenovo ThinkBook",
+            "img": "https://www.synaptics.com/sites/default/files/2023-01/lenovo-wireless-dock-displaylink-synaptics.png",
+            "desc": "World’s first truly wireless dock drives two UHD 4K/60Hz displays over Wi-Fi 6/6E and includes a 45W charging mat for notebooks and a 10W universal wireless charging mat for smartphones and IoT accessories.",
+            "date": "May 05, 2023"
+        },
+        {
+            "link": "./technology/cloud-ways.html",
+            "name": "7 Steps WooCommerce Quick Start with Cloudways",
+            "img": "https://dinhvietthaiviet.com/wp-content/uploads/2023/07/7-Steps-WooCommerce-Quick-Start-with-Cloudways-dinhvietthaiviet-1.jpg",
+            "desc": "Cloudways is a cloud hosting platform with a user-friendly interface, managed hosting, and performance optimization features.",
+            "date": "May 05, 2023"
+        }
+    ],
+    "ebike": [{
+        "link": "./technology/DYU-King-750.html",
+        "name": "DYU King 750 Review",
+        "img": "../assets/img/gallery/111_d92edd05-f085-470b-8694-934492036a2d_650x-transformed.png",
+        "desc": "Today, we're taking a closer look at the DYU King 750, a fat tire eBike that promises a comfortable and smooth ride with its big range and 26-inch fat wheels.",
+        "date": "May 05, 2023"
     },
     {
-        "link": "5",
-        "name": "6",
-        "img": "7",
-        "desc": "8",
-        "date": "abcd"
+        "link": "https://dyucycle.com/blogs/news/experience-effortless-travel-with-the-dyu-a1f-electric-city-bike",
+        "name": "Emerging Trends in Information Technology for 2023",
+        "img": "../assets/img/gallery/A1F_a0410e77-785f-46ca-b62e-3c1dea8c6157_650x-transformed.png",
+        "desc": "Are you tired of the daily traffic and looking for a more efficient way to commute? Or perhaps you're an adventurer at heart, seeking a compact and portable companion for your urban explorations?",
+        "date": "May 05, 2023"
     },
     {
-        "link": "9",
-        "name": "10",
-        "img": "11",
-        "desc": "12",
-        "date": "abcd"
-    }
-]
+        "link": "https://dyucycle.com/blogs/news/discover-the-dyu-c6-the-ultimate-city-electric-bike",
+        "name": "Discover the DYU C6: The Ultimate City Electric Bike",
+        "img": "../assets/img/gallery/c6_650x-transformed.png",
+        "desc": "DYU is thrilled to unveil its latest creation, the DYU C6 26-Inch City Electric Bike. With its classic design, exceptional performance, and convenient features, this cutting-edge model promises riders an unparalleled cycling experience.",
+        "date": "May 05, 2023"
+    },
+    {
+        "link": "https://dyucycle.com/blogs/news/unveiling-the-dyu-d3f-a-pocket-sized-powerhouse",
+        "name": "Unveiling the DYU D3F – A Pocket-Sized Powerhouse",
+        "img": "../assets/img/gallery/5_80bf8d2f-8284-4ff9-b53a-e91c1a720587_650x-transformed.png",
+        "desc": "Join us today as we delve into a captivating world of compact electric bikes, where the DYU D3F Mini Folding Electric Bike has caught our attention.",
+        "date": "May 05, 2023"
+    }]
+}
