@@ -28,7 +28,7 @@
             emailjs.init('Q1DOompwO_MrSi_C-');
         })();
     </script>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
     <link rel="stylesheet" href="../assets/css/gift.css">
     <style>
         /* Center the loader */
@@ -297,7 +297,7 @@
                             </div>
                         </div>
                         <div class="image-bank"
-                            style="position: absolute; bottom: 5vh; align-items: center; display: flex;">
+                            style="position: absolute; top: 95vh; align-items: center; display: flex;">
                             <div style="display: flex; flex-direction: row; align-items:center">
                                 <div><img class="image--fade-in ls-is-cached lazyloaded" data-src=""
                                         style="width: 100%;"
@@ -355,7 +355,7 @@
                             </div>
                         </div>
                     </div>
-                    <div data-testid="panel-container" class="panel-container with-smile-footer">
+                    <div id="box" data-testid="panel-container" class="panel-container with-smile-footer">
                         <div class="home-view-container">
                             <div class="panel-card-container join-program-card-container">
                                 <div class="join-program-card text-center">
@@ -391,8 +391,6 @@
         </div>
     </div>
     <script>
-
-
         function scrollFn() {
             document.addEventListener('touchstart', handleTouchStart, false);
             document.addEventListener('touchmove', handleTouchMove, false);
@@ -446,7 +444,23 @@
                 yDown = null;
             };
         }
-        scrollFn()
+        // scrollFn()
+        document.getElementById('box').addEventListener(
+            'scroll',
+            function () {
+                var scrollTop = document.getElementById('box').scrollTop;
+                var scrollHeight = document.getElementById('box').scrollHeight; // added
+                var offsetHeight = document.getElementById('box').offsetHeight;
+                // var clientHeight = document.getElementById('box').clientHeight;
+                var contentHeight = scrollHeight - offsetHeight; // added
+                if (contentHeight <= scrollTop) // modified
+                {
+                    // Now this is called when scroll end!
+                    document.getElementById("loader").style.display = "inline-block";
+                }
+            },
+            false
+        )
     </script>
 </body>
 
