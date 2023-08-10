@@ -8,7 +8,7 @@ function travelerBlog(id) {
       console.error(err);
     })
     .then((data) => {
-      const listData = data;
+      const listData = data.reverse();
       listData.forEach((item) => {
         document.getElementById(
           id

@@ -1,9 +1,94 @@
-[
-    {
+[{
         "link": "https://www.mayoclinic.org/healthy-lifestyle/weight-loss/in-depth/weight-loss/art-20047752",
         "name": "Weight loss: 6 strategies for success",
         "img": "https://www.weightlossresources.co.uk/pimg/wlr/6/6-behaviours-successful-weight-loss-article.png",
         "desc": "Follow these proven strategies to reduce your weight and boost your health.",
+        "date": "May 05, 2023"
+    },
+    {
+        "name": "HOW TO USE CHATGPT FOR NUTRITIONAL MEAL PLANNING",
+        "desc": "If you follow tech news, you’ve probably heard abo…test innovation has any immediate application in…",
+        "link": "https://artofhealthyliving.com/how-to-use-chatgpt-for-nutritional-meal-planning/",
+        "img": "https://artofhealthyliving.com/wp-content/uploads/2023/04/How-To-Use-ChatGPT-For-Nutritional-Meal-Planning-370x247.jpg",
+        "date": "May 05, 2023"
+    },
+    {
+        "name": "TURNING YOUR LOVE OF COOKING INTO A CAREER WITH THESE TOP TIPS",
+        "desc": "Do you find yourself experimenting with spices and… about the dishes you create? Cooking might have…",
+        "link": "https://artofhealthyliving.com/turning-your-love-of-cooking-into-a-career-with-these-top-tips/",
+        "img": "https://artofhealthyliving.com/wp-content/uploads/2023/04/Turning-Your-Love-Of-Cooking-Into-A-Career-With-These-Top-Tips-370x247.jpg",
+        "date": "May 05, 2023"
+    },
+    {
+        "name": "BENEFITS OF WATERMELON JUICE FOR OVERALL HEALTH",
+        "desc": "The vibrant, juicy watermelon has long been a symb…nd refreshing treats. But did you know that this…",
+        "link": "https://artofhealthyliving.com/benefits-of-watermelon-juice-for-overall-health/",
+        "img": "https://artofhealthyliving.com/wp-content/uploads/2023/04/Benefits-Of-Watermelon-Juice-For-Overall-Health-370x247.jpg",
+        "date": "May 05, 2023"
+    },
+    {
+        "name": "AN INSIGHT INTO THE AMAZING BENEFITS OF OLIVE OIL",
+        "desc": "If you want to eat healthily then you may want to …l as a potential ingredient to add to your diet….",
+        "link": "https://artofhealthyliving.com/an-insight-into-the-amazing-benefits-of-olive-oil/",
+        "img": "https://artofhealthyliving.com/wp-content/uploads/2023/03/An-Insight-Into-The-Amazing-Benefits-Of-Olive-Oil-370x247.jpg"
+
+            ,
+        "date": "May 05, 2023"
+    },
+    {
+        "name": "7 WAYS TO MAKE COFFEE HEALTHIER OTHER THAN DRINKING IT BLACK",
+        "desc": "While complex drinks with several types of drizzle…re better options for you. Coffee inherently has…",
+        "link": "https://artofhealthyliving.com/7-ways-to-make-coffee-healthier-other-than-drinking-it-black/",
+        "img": "https://artofhealthyliving.com/wp-content/uploads/2023/03/7-Ways-To-Make-Coffee-Healthier-Other-Than-Drinking-It-Black-370x247.jpg",
+        "date": "May 05, 2023"
+    },
+    {
+        "name": "TOP 8 HEALTH BENEFITS OF INTERMITTENT FASTING",
+        "desc": "Diet trends have always been a prominent part of p…one of the most popular and most discussed diets…",
+        "link": "https://artofhealthyliving.com/top-8-health-benefits-of-intermittent-fasting/",
+        "img": "https://artofhealthyliving.com/wp-content/uploads/2023/03/Top-8-Health-Benefits-of-Intermittent-Fasting-370x278.jpg",
+        "date": "May 05, 2023"
+    },
+    {
+        "name": "HOW TO MAKE DIET FRIENDLY SNACKS AT HOME",
+        "desc": "Do you want to start eating healthier but don’t ha…y packaged snacks? Making your snacks at home is…",
+        "link": "https://artofhealthyliving.com/how-to-make-diet-friendly-snacks-at-home/",
+        "img": "https://artofhealthyliving.com/wp-content/uploads/2023/03/How-To-Make-Diet-Friendly-Snacks-At-Home-370x247.jpg",
+        "date": "May 05, 2023"
+    },
+    {
+        "name": "9 TIPS AND TRICKS ON HOW TO SIMPLIFY YOUR GROCERY SHOPPING LIST",
+        "desc": "It’s time once again to prepare for your dreaded g…put it off as long as possible, but all you have…",
+        "link": "https://artofhealthyliving.com/9-tips-and-tricks-on-how-to-simplify-your-grocery-shopping-list/",
+        "img": "https://artofhealthyliving.com/wp-content/uploads/2023/03/9-Tips-And-Tricks-On-How-To-Simplify-Your-Grocery-Shopping-List-370x247.jpg",
+        "date": "May 05, 2023"
+    },
+    {
+        "name": "THE POWER OF HABITS: HEALTHY CHOICES FOR BUSY PEOPLE",
+        "desc": "Humans often use being busy as an excuse rather th… can be beneficial in fulfilling basic needs and…",
+        "link": "https://artofhealthyliving.com/the-power-of-habits-healthy-choices-for-busy-people/",
+        "img": "https://artofhealthyliving.com/wp-content/uploads/2023/03/The-Power-Of-Habits-Healthy-Choices-For-Busy-People-370x246.jpg",
+        "date": "May 05, 2023"
+    },
+    {
+        "name": "10 AIR FRYER SNACK IDEAS YOUR TEEN WILL LOVE",
+        "desc": "OK, so I’m late to the Air Fryer party. But I’m he…nd I want to share some super quick and easy Air…",
+        "link": "https://artofhealthyliving.com/10-air-fryer-snack-ideas-your-teen-will-love/",
+        "img": "https://artofhealthyliving.com/wp-content/uploads/2023/02/10-Air-Fryer-Snack-Ideas-Your-Teen-Will-Love-370x278.jpg",
+        "date": "May 05, 2023"
+    },
+    {
+        "name": "A GUIDE TO CHOOSING THE BEST MAPLE SYRUP FOR YOUR KITCHEN",
+        "desc": "When it comes to maple syrup, there are a lot of d…e, Vermont or Canada, color, and flavor are just…",
+        "link": "https://artofhealthyliving.com/a-guide-to-choosing-the-best-maple-syrup-for-your-kitchen/",
+        "img": "https://artofhealthyliving.com/wp-content/uploads/2023/03/A-Guide-To-Choosing-The-Best-Maple-Syrup-For-Your-Kitchen-370x247.jpg",
+        "date": "May 05, 2023"
+    },
+    {
+        "name": "HOW TO HANDLE FOOD POISONING FROM MEAL KITS",
+        "desc": "Meal kit subscription services and mail-order food…heir popularity. Although intrepid food shoppers…",
+        "link": "https://artofhealthyliving.com/how-to-handle-food-poisoning-from-meal-kits/",
+        "img": "https://artofhealthyliving.com/wp-content/uploads/2023/02/How-To-Handle-Food-Poisoning-From-Meal-Kits-370x247.jpg",
         "date": "May 05, 2023"
     }
 ]
