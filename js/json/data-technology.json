@@ -1,60 +1,312 @@
 {
-    "tech": [
-        {
-            "link": "https://nextui.org/blog/nextui-v2",
-            "name": "Introducing NextUI Version 2.0",
-            "img": "../assets/img/gallery/nextui-banner.webp",
+    "tech": [{
+            "date": "2022/01/18",
             "desc": "We're thrilled to announce the release of NextUI v2.0. Our mission has always been to create a more efficient, flexible, beautiful and customizable UI library for you. And, this update is a huge leap towards achieving that.",
-            "date": "June 26, 2023"
+            "img": "../assets/img/gallery/nextui-banner.webp",
+            "link": "https://nextui.org/blog/nextui-v2",
+            "name": "Introducing NextUI Version 2.0"
         },
         {
-            "link": "./technology/information-technology.html",
-            "name": "Emerging Trends in Information Technology for 2023",
+            "date": "2022/02/11",
+            "desc": "The world of information technology is continuously expanding. Staying updated about \nthe latest industry trends can help you whether you're an established professional or just starting out in IT.",
             "img": "https://www.columbiasouthern.edu/media/5wopakhy/emerging-trends-in-information-technology-2023.jpg",
-            "desc": "The world of information technology is continuously expanding. Staying updated about the latest industry trends can help you whether you're an established professional or just starting out in IT.",
-            "date": "August 18, 2023"
+            "link": "./technology/information-technology.html",
+            "name": "Emerging Trends in Information Technology for 2023"
         },
         {
-            "link": "./technology/synaptics-enables-lenovo.html",
-            "name": "Synaptics Enables Lenovo ThinkBook",
-            "img": "https://www.synaptics.com/sites/default/files/2023-01/lenovo-wireless-dock-displaylink-synaptics.png",
+            "date": "2022/03/03",
             "desc": "World’s first truly wireless dock drives two UHD 4K/60Hz displays over Wi-Fi 6/6E and includes a 45W charging mat for notebooks and a 10W universal wireless charging mat for smartphones and IoT accessories.",
-            "date": "January 27, 2023"
+            "img": "https://www.synaptics.com/sites/default/files/2023-01/lenovo-wireless-dock-displaylink-synaptics.png",
+            "link": "./technology/synaptics-enables-lenovo.html",
+            "name": "Synaptics Enables Lenovo ThinkBook"
         },
         {
-            "link": "./technology/cloud-ways.html",
-            "name": "7 Steps WooCommerce Quick Start with Cloudways",
-            "img": "https://dinhvietthaiviet.com/wp-content/uploads/2023/07/7-Steps-WooCommerce-Quick-Start-with-Cloudways-dinhvietthaiviet-1.jpg",
+            "date": "2022/03/26",
             "desc": "Cloudways is a cloud hosting platform with a user-friendly interface, managed hosting, and performance optimization features.",
-            "date": "November 22, 2023"
+            "img": "https://dinhvietthaiviet.com/wp-content/uploads/2023/07/7-Steps-WooCommerce-Quick-Start-with-Cloudways-dinhvietthaiviet-1.jpg",
+            "link": "./technology/cloud-ways.html",
+            "name": "7 Steps WooCommerce Quick Start with Cloudways"
+        },
+        {
+            "date": "2022/04/21",
+            "desc": "JULIAN CHOKKATTU",
+            "img": "https://media.wired.com/photos/649de46640f1b0ff578446aa/3:2/w_1600%2Cc_liit/Best-Android-Phones-2023-Gear.jpg",
+            "link": "https://www.wired.com/gallery/best-android-phones/",
+            "name": "These Are the 15 Android Phones Worth Buying"
+        },
+        {
+            "date": "2022/08/25",
+            "desc": "ANDREW COUTS",
+            "img": "https://media.wired.com/photos/64d6c1397bdca8cda5f9f3e9/3:2/w_1600%2Cc_limit/Security-Roundup-Keyboard-Tracking-1301125224.jpg",
+            "link": "https://www.wired.com/story/keystroke-attack-security-roundup/",
+            "name": "A New Attack Reveals Everything You Type With 95 Percent Accuracy"
+        },
+        {
+            "date": "2022/09/14",
+            "desc": "MATT BURGESS",
+            "img": "https://media.wired.com/photos/64d66f4c2db7cd67f9653641/3:2/w_1600%2Cc_limit/J2-Cold-Press-Juicer-Gear.jpg",
+            "link": "https://www.wired.com/gallery/best-juicers/",
+            "name": "The Best Juicers for Cocktails, Mocktails, Juices, and \nSmoothies"
+        },
+        {
+            "date": "2022/09/27",
+            "desc": "EMILY PECK",
+            "img": "https://media.wired.com/photos/64d66ead0124a91cee27dc17/3:2/w_1600%2Cc_limit/Samsung-Galaxy-Watch6-Classic-SOURCE-Samsung.jpg",
+            "link": "https://www.wired.com/review/samsung-galaxy-watch6-classic/",
+            "name": "Samsung’s Galaxy Watch6 Classic Is Fun but Doesn’t Move the Needle"
+        },
+        {
+            "date": "2022/10/26",
+            "desc": "JULIAN CHOKKATTU",
+            "img": "https://media.wired.com/photos/64d63bb3a6c1fece8f4bb611/3:2/w_1600%2Cc_limit/firefly_science_climatedesk_GettyImages-1159454153.jpg",
+            "link": "https://www.wired.com/story/how-a-firefly-course-is-saving-japans-favorite-glowing-insect/",
+            "name": "How a Firefly Course Is Saving Japan’s Favorite Glowing Insect"
+        },
+        {
+            "date": "2022/11/15",
+            "desc": "SHOSHI PARKS",
+            "img": "https://media.wired.com/photos/64d673509ec11a2433532e35/3:2/w_1600%2Cc_limit/The-Original-Allswell-10-Bed-in-a-Box-Hybrid-Mattress-Gear.jpg",
+            "link": "https://www.wired.com/story/best-labor-day-mattress-deals-2023/",
+            "name": "The Best Early Labor Day Mattress Deals"
+        },
+        {
+            "date": "2023/01/12",
+            "desc": "MEDEA GIORDANO",
+            "img": "https://media.wired.com/photos/64d69cea93ba5cd8bbdc983e/3:2/w_1600%2Cc_limit/How-to-Move-Your-Instagram-Feed-to-Pixelfed%2C-the-Photo-App-That-Doesn't-Track-Your-Every-Move-Gear-GettyImages-1301836893.jpg",
+            "link": "https://www.wired.com/story/migrate-move-instagram-to-pixelfed-no-tracking-fediverse/",
+            "name": "How to Move Your Instagram Feed to Pixelfed, the Photo App That Doesn't Track Your Every Move"
+        },
+        {
+            "date": "2023/03/02",
+            "desc": "JUSTIN POT",
+            "img": "https://media.wired.com/photos/64d666c5daed59ebbf460d50/3:2/w_1600%2Cc_limit/Someone-Great-Netflix.jpg",
+            "link": "https://www.wired.com/story/netflix-best-movies-this-week/",
+            "name": "The 45 Best Movies on Netflix This Week"
+        },
+        {
+            "date": "2023/04/11",
+            "desc": "MATT KAMEN",
+            "img": "https://media.wired.com/photos/64cd92b682d37ced55dff7f7/3:2/w_1600%2Cc_limit/VR-Rap-HH50-Package-Culture-1426593257.jpg",
+            "link": "https://www.wired.com/story/hip-hop-in-2073/",
+            "name": "Hip Hop 2073: A Vision of the Future, 50 Years From Now"
+        },
+        {
+            "date": "2023/05/20",
+            "desc": "WIRED STAFF",
+            "img": "https://media.wired.com/photos/64d667df2cc57777ec67f2de/3:2/w_1600%2Cc_limit/Travelers-Netflix-Culture.jpg",
+            "link": "https://www.wired.com/story/netflix-best-shows-this-week/",
+            "name": "The 44 Best Shows on Netflix Right Now"
+        },
+        {
+            "date": "2023/07/26",
+            "desc": "Marc Raibert founded the Leg Laboratory at CMU back in 1980. After moving homes to MIT in 1986, it became one of the most important research facilities in robotics. It’s been foundational in the de...",
+            "img": "https://techcrunch.com/wp-content/uploads/2023/08/Raibert_Gil.jpg?w=430&h=230&crop=1",
+            "link": "https://techcrunch.com/2023/08/10/marc-raibert-and-gill-pratt-will-discuss-state-of-the-art-research-at-techcrunch-disrupt/",
+            "name": "Marc Raibert and Gill Pratt will discuss state-of-the-art research at TechCrunch Disrupt"
+        },
+        {
+            "date": "2022/02/04",
+            "desc": "OpenAI announced that it’s expanding custom instructions — a way to give users more control over how ChatGPT responds — to all users, including those on the free tier of the servi...",
+            "img": "https://techcrunch.com/wp-content/uploads/2023/05/GettyImages-1254096989.jpg?w=430&h=230&crop=1",
+            "link": "https://techcrunch.com/2023/08/10/chatgpt-expands-its-custom-instructions-feature-to-free-users/",
+            "name": "ChatGPT expands its \n‘custom instructions’ feature to free users"
+        },
+        {
+            "date": "2022/02/18",
+            "desc": "In a scenario where we have an AI that is self-aware, faced with the prospect of being switched o...",
+            "img": "https://techcrunch.com/wp-content/uploads/2023/08/Lifeline-KeyArt-4K-Large.jpeg?w=940&h=465&crop=1",
+            "link": "https://techcrunch.com/2023/08/10/ai-and-the-emergence-of-empathy/",
+            "name": "Imagine for a moment that you’re an AI"
+        },
+        {
+            "date": "2022/02/19",
+            "desc": "Three years ago Zoom settled with the FTC over a claim of deceptive marketing around security claims, having been accused of overstating the strength of the encryption it offered. Now the videoconf...",
+            "img": "https://techcrunch.com/wp-content/uploads/2023/06/GettyImages-1234804190-e1685964956831.jpg?w=430&h=230&crop=1",
+            "link": "https://techcrunch.com/2023/08/08/zoom-data-mining-for-ai-terms-gdpr-eprivacy/",
+            "name": "Zoom knots itself a legal tangle over use of customer data for training AI models"
+        },
+        {
+            "date": "2022/02/26",
+            "desc": "Google today announced the launch of Project IDX, its foray into offering an AI-enabled browser-based development environment for building full-stack web and multiplatform apps. It currently suppor...",
+            "img": "https://techcrunch.com/wp-content/uploads/2021/01/GettyImages-1230444599.jpg?w=430&h=230&crop=1",
+            "link": "https://techcrunch.com/2023/08/08/google-launches-project-idx-a-new-ai-enabled-browser-based-development-environment/",
+            "name": "Google launches Project IDX, a new AI-enabled browser-based development environment"
+        },
+        {
+            "date": "2022/02/28",
+            "desc": "We sigh, as humans spool up to take a break, while the semi-sentient machines continue writing their poetry in their air-conditioned underground data-center homes. n my column this week, I spent a ...",
+            "img": "https://techcrunch.com/wp-content/uploads/2021/10/GettyImages-637552576.jpg?w=430&h=230&crop=s1",
+            "link": "https://techcrunch.com/2023/08/11/when-you-gaze-into-the-ai-the-ai-also-gazes-into-you/",
+            "name": "When you gaze into the AI, the AI also gazes into you"
+        },
+        {
+            "date": "2022/03/05",
+            "desc": "JULIAN CHOKKATTU",
+            "img": "https://media.wired.com/photos/64d53749c859c4a1cdecc556/3:2/w_1600%2Cc_limit/Samsung-Galaxy-Tab-S9-Series-SOURCE-Samsung-Featured-Gear.jpg",
+            "link": "https://www.wired.com/review/samsung-galaxy-tab-s9-series/",
+            "name": "Samsung’s New Android Tablets Are Still Too Expensive"
+        },
+        {
+            "date": "2022/03/07",
+            "desc": "ANDREW KERSLEY",
+            "img": "https://media.wired.com/photos/64d576f16279e3647284478e/3:2/w_1600%2Cc_limit/scentient_smell_nose_GettyImages-BD6202-001.jpg",
+            "link": "https://www.wired.com/story/scentient-smell-virtual-reality/",
+            "name": "Smell Your Way Out of the Uncanny Valley"
+        },
+        {
+            "date": "2022/03/13",
+            "desc": "AARIAN MARSHALL",
+            "img": "https://media.wired.com/photos/649cd5a8065114c6bc3082d4/3:2/w_1600%2Cc_limit/California-Expanding-Robotaxis-Business-Alamy-2J9HRBA.jpg",
+            "link": "https://www.wired.com/story/robotaxis-cruise-waymo-san-francisco/",
+            "name": "Robotaxis Can Now Work the Streets of San Francisco 24/7"
+        },
+        {
+            "date": "2022/04/09",
+            "desc": "JENNIFER M. WOOD",
+            "img": "https://media.wired.com/photos/64d59addf2de86183cf5b7b7/3:2/w_1600%2Cc_limit/Culture-Streaming-update-culture-zazie-beetz_1.jpg",
+            "link": "https://www.wired.com/story/hbo-max-best-shows-to-stream-right-now/",
+            "name": "The 21 Best Shows on Max (aka HBO Max) Right Now"
+        },
+        {
+            "date": "2022/04/18",
+            "desc": "WIRED STAFF",
+            "img": "https://media.wired.com/photos/64d544b66279e3647284478c/3:2/w_1600%2Cc_limit/Boston%2520Subway%2520Card%2520Hackers-2093.jpg",
+            "link": "https://www.wired.com/story/mtba-charliecard-hack-defcon-2023/",
+            "name": "Teens Hacked Boston Subway Cards to Get Infinite Free Rides—and This Time, Nobody Got Sued"
+        },
+        {
+            "date": "2022/05/27",
+            "desc": "ANDY GREENBERG",
+            "img": "https://media.wired.com/photos/64d430e957ff6ec62db8a934/3:2/w_1600%2Cc_limit/Zoom-User-Data-AI-Training-Fast-Forward-Business-616146659.jpg",
+            "link": "https://www.wired.com/story/fast-forward-generative-ai-companies-thirsty-for-your-data/",
+            "name": "Generative AI Is Making Companies Even More Thirsty for Your Data"
+        },
+        {
+            "date": "2022/08/11",
+            "desc": "WILL KNIGHT",
+            "img": "https://media.wired.com/photos/64d4f6f87bdca8cda5f9f3a0/3:2/w_1600%2Cc_limit/hawaii_wildfire_h_27.RTSME9H4.jpg",
+            "link": "https://www.wired.com/story/the-scary-science-of-mauis-wildfires/",
+            "name": "The Scary Science of Maui’s Wildfires"
+        },
+        {
+            "date": "2022/10/09",
+            "desc": "MATT SIMON",
+            "img": "https://media.wired.com/photos/64d42b1a984161b7583de53d/3:2/w_1600%2Cc_limit/ideas_zoom_ai_data_privacy.jpg",
+            "link": "https://www.wired.com/story/zoom-became-a-part-of-daily-life-it-needs-to-tell-users-exactly-how-its-using-their-data/",
+            "name": "Zoom Became a Part of \nDaily Life. It Needs to Tell Users Exactly How It’s Using Their Data"
+        },
+        {
+            "date": "2022/10/22",
+            "desc": "DAMIEN PATRICK WILLIAMS",
+            "img": "https://media.wired.com/photos/64d42f236a7c217c9bd8af18/3:2/w_1600%2Cc_limit/Macbook-Dbrand-Skin-Gear.jpg",
+            "link": "https://www.wired.com/story/best-macbook-accessories/",
+            "name": "The Best MacBook Accessories "
+        },
+        {
+            "date": "2022/11/24",
+            "desc": "BRENDA STOLYAR",
+            "img": "https://media.wired.com/photos/64d442a4e416fd283a85c6ea/3:2/w_1600%2Cc_limit/culture_tiktok_attention.jpg",
+            "link": "https://www.wired.com/story/tiktok-dual-videos-attention-spans/",
+            "name": "The Newest Threat to Your Attention Span? TikTok ‘Dual’ Videos"
+        },
+        {
+            "date": "2023/02/02",
+            "desc": "GEAR TEAM",
+            "img": "https://media.wired.com/photos/64d432a10a0f9ed43773f32c/3:2/w_1600%2Cc_limit/Navee-S65-Scooter-Featured-Gear.jpg",
+            "link": "https://www.wired.com/review/navee-s65/",
+            "name": "This Loud Electric Scooter Is Annoying but Has Great Acceleration"
+        },
+        {
+            "date": "2023/03/03",
+            "desc": "SOFIA BARNETT",
+            "img": "https://media.wired.com/photos/64cd50f232101aa6f13ca1f4/3:2/w_1600%2Cc_limit/Quanta-HeliumNucleus-byKristinaArmitage-Lede-scaled.jpg",
+            "link": "https://www.wired.com/story/a-new-experiment-casts-doubt-on-the-leading-theory-of-the-nucleus/",
+            "name": "A New Experiment Casts Doubt on the Leading Theory of the Nucleus"
+        },
+        {
+            "date": "2023/04/13",
+            "desc": "LAUREN GOODE",
+            "img": "https://media.wired.com/photos/64d42dd84a854832b16fd38c/3:2/w_1600%2Cc_limit/Here-Come-the-Robotaxis-Gear-GettyImages-1238159649.jpg",
+            "link": "https://www.wired.com/story/gadget-lab-podcast-608/",
+            "name": "Here Come the Robotaxis"
+        },
+        {
+            "date": "2023/04/14",
+            "desc": "MICHAEL CALORE",
+            "img": "https://media.wired.com/photos/64d3fb0157ff6ec62db8a931/3:2/w_1600%2Cc_limit/science_cover7_tftec_alt.jpg",
+            "link": "https://www.wired.com/story/how-to-make-bionic-limbs-literally-very-cool/",
+            "name": "How to Make Bionic Limbs (Literally) Very Cool"
+        },
+        {
+            "date": "2023/04/24",
+            "desc": "CELIA FORD",
+            "img": "https://media.wired.com/photos/64d4170d32101aa6f13ca1ff/3:2/w_1600%2Cc_limit/Elon-Musk-@Music-Handle-X-Business-1258664001.jpg",
+            "link": "https://www.wired.com/story/by-seizing-music-elon-musk-shows-he-doesnt-know-what-made-twitter-good/",
+            "name": "By Seizing @Music, Elon Musk Shows He Doesn’t Know What Made Twitter Good"
+        },
+        {
+            "date": "2023/04/26",
+            "desc": "VITTORIA ELLIOTT",
+            "img": "https://media.wired.com/photos/64d438294a854832b16fd38d/3:2/w_1600%2Cc_limit/Leaked-Yandex-Code-Breaks-Open-the-Creepy-Black-Box-of-Online-Advertising-Security-GettyImages-1056690740.jpg",
+            "link": "https://www.wired.com/story/yandex-leaks-crypta-ads/",
+            "name": "Leaked Yandex Code Breaks Open the Creepy Black Box of Online Advertising"
+        },
+        {
+            "date": "2023/06/05",
+            "desc": "MATT BURGESS",
+            "img": "https://media.wired.com/photos/64d3d7869ec11a2433532db5/3:2/w_1600%2Cc_limit/Humanizing-AI-Mente_cuerpo-feature.jpg",
+            "link": "https://www.wired.com/story/ai-new-turing-test/",
+            "name": "To Navigate the Age of AI, the World Needs a New Turing Test"
+        },
+        {
+            "date": "2023/06/06",
+            "desc": "BEN ASH BLUM",
+            "img": "https://media.wired.com/photos/64cd65218ca7067a92af183f/3:2/w_1600%2Cc_limit/Archiving-Hip-Hop-HH50-Package-2-Culture-1543033515_1.jpg",
+            "link": "https://www.wired.com/story/archiving-hip-hop-history/",
+            "name": "The Hip Hop Historians Who Are Racing to Preserve Its Story"
+        },
+        {
+            "date": "2023/07/20",
+            "desc": "ANGELA WATERCUTTER",
+            "img": "https://media.wired.com/photos/64d40178c65d33e5f22478db/3:2/w_1600%2Cc_limit/Panasonic-IoT-Security-GettyImages-1454746662.jpg",
+            "link": "https://www.wired.com/story/panasonic-iot-malware-honeypots/",
+            "name": "Panasonic Warns That Internet-of-Things Malware Attack Cycles Are Accelerating"
+        },
+        {
+            "date": "2023/07/21",
+            "desc": "LILY HAY NEWMAN",
+            "img": "https://media.wired.com/photos/64d4031a8ca7067a92af187f/3:2/w_1600%2Cc_limit/Card%2520Shuffling%2520Hack%2520IOActive%2520Black%2520Hat%2520Security-1334.jpg",
+            "link": "https://www.wired.com/story/card-shuffler-hack/",
+            "name": "Hackers \nRig Casino Card-Shuffling Machines for ‘Full Control’ Cheating"
         }
     ],
     "ebike": [{
-        "link": "./technology/DYU-King-750.html",
-        "name": "DYU King 750 Review",
-        "img": "../assets/img/gallery/111_d92edd05-f085-470b-8694-934492036a2d_650x-transformed.png",
-        "desc": "Today, we're taking a closer look at the DYU King 750, a fat tire eBike that promises a comfortable and smooth ride with its big range and 26-inch fat wheels.",
-        "date": "February 13, 2023"
-    },
-    {
-        "link": "https://dyucycle.com/blogs/news/experience-effortless-travel-with-the-dyu-a1f-electric-city-bike",
-        "name": "Emerging Trends in Information Technology for 2023",
-        "img": "../assets/img/gallery/A1F_a0410e77-785f-46ca-b62e-3c1dea8c6157_650x-transformed.png",
-        "desc": "Are you tired of the daily traffic and looking for a more efficient way to commute? Or perhaps you're an adventurer at heart, seeking a compact and portable companion for your urban explorations?",
-        "date": "September 27, 2023"
-    },
-    {
-        "link": "https://dyucycle.com/blogs/news/discover-the-dyu-c6-the-ultimate-city-electric-bike",
-        "name": "Discover the DYU C6: The Ultimate City Electric Bike",
-        "img": "../assets/img/gallery/c6_650x-transformed.png",
-        "desc": "DYU is thrilled to unveil its latest creation, the DYU C6 26-Inch City Electric Bike. With its classic design, exceptional performance, and convenient features, this cutting-edge model promises riders an unparalleled cycling experience.",
-        "date": "December 25, 2023"
-    },
-    {
-        "link": "https://dyucycle.com/blogs/news/unveiling-the-dyu-d3f-a-pocket-sized-powerhouse",
-        "name": "Unveiling the DYU D3F – A Pocket-Sized Powerhouse",
-        "img": "../assets/img/gallery/5_80bf8d2f-8284-4ff9-b53a-e91c1a720587_650x-transformed.png",
-        "desc": "Join us today as we delve into a captivating world of compact electric bikes, where the DYU D3F Mini Folding Electric Bike has caught our attention.",
-        "date": "December 4, 2023"
-    }]
+            "link": "./technology/DYU-King-750.html",
+            "name": "DYU King 750 Review",
+            "img": "../assets/img/gallery/111_d92edd05-f085-470b-8694-934492036a2d_650x-transformed.png",
+            "desc": "Today, we're taking a closer look at the DYU King 750, a fat tire eBike that promises a comfortable and smooth ride with its big range and 26-inch fat wheels.",
+            "date": "February 13, 2023"
+        },
+        {
+            "link": "https://dyucycle.com/blogs/news/experience-effortless-travel-with-the-dyu-a1f-electric-city-bike",
+            "name": "Emerging Trends in Information Technology for 2023",
+            "img": "../assets/img/gallery/A1F_a0410e77-785f-46ca-b62e-3c1dea8c6157_650x-transformed.png",
+            "desc": "Are you tired of the daily traffic and looking for a more efficient way to commute? Or perhaps you're an adventurer at heart, seeking a compact and portable companion for your urban explorations?",
+            "date": "September 27, 2023"
+        },
+        {
+            "link": "https://dyucycle.com/blogs/news/discover-the-dyu-c6-the-ultimate-city-electric-bike",
+            "name": "Discover the DYU C6: The Ultimate City Electric Bike",
+            "img": "../assets/img/gallery/c6_650x-transformed.png",
+            "desc": "DYU is thrilled to unveil its latest creation, the DYU C6 26-Inch City Electric Bike. With its classic design, exceptional performance, and convenient features, this cutting-edge model promises riders an unparalleled cycling experience.",
+            "date": "December 25, 2023"
+        },
+        {
+            "link": "https://dyucycle.com/blogs/news/unveiling-the-dyu-d3f-a-pocket-sized-powerhouse",
+            "name": "Unveiling the DYU D3F – A Pocket-Sized Powerhouse",
+            "img": "../assets/img/gallery/5_80bf8d2f-8284-4ff9-b53a-e91c1a720587_650x-transformed.png",
+            "desc": "Join us today as we delve into a captivating world of compact electric bikes, where the DYU D3F Mini Folding Electric Bike has caught our attention.",
+            "date": "December 4, 2023"
+        }
+    ]
 }
