@@ -140,35 +140,42 @@
     "name": "Private Street Food Tour by Motorbike/Car with Local Students",
     "date": "2023/01/18",
     "desc": "There’s no better way to get into the swing of Saigon than riding a motorbike. Enjoy the immediacy of scooter travel without the self-driving risks on this private guided foodie adventure.",
-    "img": "../assets/img/gallery/caption.jpg"
+    "img": "../assets/img/gallery/caption.jpg",
+    "link": "https://www.tripadvisor.com/AttractionProductReview-g293925-d14105294-Private_Street_Food_Tour_by_Motorbike_Car_with_Local_Students-Ho_Chi_Minh_City.html"
 }, {
     "name": "Little Havana Food and Walking Tour in Miami",
     "date": "2023/02/20",
     "desc": "Taste your way through Miami’s Little Havana neighborhood on a food walking tour exploring the vibrant and historic neighborhood.",
-    "img": "../assets/img/gallery/caption-miami.jpg"
+    "img": "../assets/img/gallery/caption-miami.jpg",
+    "link": "https://www.tripadvisor.com/AttractionProductReview-g34438-d11470104-Little_Havana_Food_and_Walking_Tour_in_Miami-Miami_Florida.html"
 }, {
     "name": "Grand Circle Island and Haleiwa 9 Hour Tour",
     "date": "2023/04/05",
     "desc": "Ideal for first-time visitors, or those with limited time, this full-day tour takes you all around Oahu, making sure that you don't miss a thing.",
-    "img": "../assets/img/gallery/caption-driftwood-beach.jpg"
+    "img": "../assets/img/gallery/caption-driftwood-beach.jpg",
+    "link": "https://www.tripadvisor.com/AttractionProductReview-g60982-d19279535-Grand_Circle_Island_and_Haleiwa_9_Hour_Tour-Honolulu_Oahu_Hawaii.html"
 }, {
     "name": "Hoi An",
     "date": "2023/05/17",
     "desc": "This city on the central Vietnamese coast is a well-preserved example of the important Southeast Asian trading port it was from the 15th-19th centuries",
-    "img": "../assets/img/gallery/caption-hoi-an.jpg"
+    "img": "../assets/img/gallery/caption-hoi-an.jpg",
+    "link": "https://www.tripadvisor.com/Tourism-g298082-Hoi_An_Quang_Nam_Province-Vacations.html"
 }, {
     "name": "New York State Top 05 Attractions You Will Absolutely Love",
     "date": "2023/06/22",
     "desc": "Times Square, Statue of Liberty, Niagara Falls, Metropolitan Museum of Art, Central Park,...",
-    "img": "../assets/img/gallery/20170627124008_statue-of-liberty.webp"
+    "img": "../assets/img/gallery/20170627124008_statue-of-liberty.webp",
+    "link": "./travel/ny-5-attractions.html"
 }, {
     "name": "Top 13 Most Famous Places in the USA",
     "date": "2023/07/22",
     "desc": "The most iconic places in the USA to visit in your lifetime!...",
-    "img": "../assets/img/gallery/20191109114454_times-square-ny.jpg"
+    "img": "../assets/img/gallery/20191109114454_times-square-ny.jpg",
+    "link": "./travel/famous-places-in-the-USA.html"
 }, {
     "name": "6 Places to Be Outside in the USA This Winter",
     "date": "2023/07/31",
     "desc": "California, Florida, Hawaii, Arizona, U.S. Virgin Islands, Texas....",
-    "img": "../assets/img/gallery/palm-springs-canyon.jpg"
+    "img": "../assets/img/gallery/palm-springs-canyon.jpg",
+    "link": "./blog/travel/6-places-to-be-outside.html"
 }]
