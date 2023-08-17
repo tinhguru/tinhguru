@@ -11261,9 +11261,7 @@ span.date>time {
 .owl-lazy[src*="20xmlns='http://www.w3.org/2000/svg'"],
 .penci-holder-load:not([style*=background-image]),
 .penci-lazy:not(.lazyloaded) {
-    background-image: linear-gradient(to left, #f5f5f5 0%, #efefef 15%, #f5f5f5 40%, #f5f5f5 100%);
     background-repeat: no-repeat !important;
-    background-color: #f5f5f5;
     background-size: 900px 1700px !important;
     animation: pencipreload .6s infinite linear forwards;
     -webkit-animation: pencipreload .6s infinite linear forwards
@@ -28085,7 +28083,6 @@ a img.aligncenter {
     bottom: 0;
     left: 0;
     width: 100%;
-    background: rgba(0, 0, 0, .5);
     transition: all .4s;
     -webkit-transition: all .4s;
     -moz-transition: all .4s
@@ -48617,3 +48614,9 @@ body.rtl .penci_account_posts .pcsl-inner .pcsl-content {
 .lwptoc {
     margin: 32px 0;
 }
+
+.newcontainer .image {
+    width: 50%;
+    float: left;
+}
+
