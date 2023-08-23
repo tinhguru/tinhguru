@@ -398,6 +398,12 @@
             "img": "https://media.wired.com/photos/64b1d4dd90167265276c895e/3:2/w_1600%2Cc_limit/070323-ev-maintenance.jpg",
             "link": "https://www.wired.com/story/ev-sales-hit-a-record-in-the-us-now-their-popularity-may-be-waning/",
             "date": "2023/07/24"
+        },{
+            "name": "SIM packaging solutions",
+            "date": "2023/08/23",
+            "desc": "Increase your SIM card visibility, embrace the green trend – and ramp up eSIM activation,...",
+            "img": "https://www.thalesgroup.com/sites/default/files/database/assets/images/2021-03/eco-sim-card-banner.jpg",
+            "link": "../blog/technology/sim-packaging-solutions.html"
         }
     ],
     "ebike": [{
