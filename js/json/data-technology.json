@@ -402,13 +402,13 @@
             "name": "SIM packaging solutions",
             "date": "2023/08/23",
             "desc": "Increase your SIM card visibility, embrace the green trend – and ramp up eSIM activation,...",
-            "img": "https://www.thalesgroup.com/sites/default/files/database/assets/images/2021-03/eco-sim-card-banner.jpg",
+            "img": "../assets/img/gallery/eco-sim-card-banner.jpg",
             "link": "../blog/technology/sim-packaging-solutions.html"
         },{
             "name": "Turning fridges into SIM cards: An ecological SIM portfolio",
             "date": "2023/08/23",
             "desc": "This is equivalent to 20,000 tons of polymers – the weight of almost 2 Eiffel towers or 40 Airbus A380s at take-off....",
-            "img": "https://dis-blog.thalesgroup.com/wp-content/uploads/2023/06/Image-1180x575-Secondary-Image-DIS-1.png",
+            "img": "../assets/img/gallery/Image-1180x575-Secondary-Image-DIS-1.png",
             "link": "../blog/technology/turning-fridges-into-SIMcards.html"
         }
     ],
