@@ -33,7 +33,7 @@ function technologyEbikeBlog(id) {
       console.error(err);
     })
     .then((data) => {
-      const listData = data.tech.sort((a, b) => {
+      const listData = data.ebike.sort((a, b) => {
         return new Date(b.date).getTime() - new Date(a.date).getTime();
       });
       listData.forEach((item) => {
