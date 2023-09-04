@@ -109,7 +109,7 @@ document.getElementById("page-two").addEventListener("click", function () {
   travelerBlogItem("travelId", 6, 1);
 });
 
-document.getElementById("page-third").addEventListener("click", function () {
+document.getElementById("page-three").addEventListener("click", function () {
   const list = document.getElementById("travelId");
   while (list.hasChildNodes()) {
     list.removeChild(list.firstChild);
@@ -123,7 +123,7 @@ document.getElementById("page-third").addEventListener("click", function () {
     document.getElementsByClassName("w3-bar")[0].children[i].className =
       "w3-bar-item w3-button w3-hover-black";
   }
-  document.getElementById("page-third").className =
+  document.getElementById("page-three").className =
     "w3-bar-item w3-black w3-button";
 
   travelerBlogItem("travelId", 6, 2);
@@ -186,4 +186,5 @@ document.getElementById("page-end").addEventListener("click", function () {
     "w3-bar-item w3-black w3-button";
   travelerBlogItem("travelId", 6, 4);
 });
+
 travelerBlogItem("travelId", 6, 0);
