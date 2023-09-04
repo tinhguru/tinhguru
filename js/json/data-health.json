@@ -142,4 +142,28 @@
     "img": "https://artofhealthyliving.com/wp-content/uploads/2022/06/holistic-nutrition-370x247.jpg",
     "date": "2023/08/10",
     "link": "https://artofhealthyliving.com/time-saving-cooking-tips-for-busy-moms/"
+}, {
+    "name": "10 Superfoods to Improve Eyesight",
+    "desc": "As we age, our eyesight inevitably begins to decline. There are a few different things that can affect your eyesight, including genetics, age, and health conditions...",
+    "img": "https://cdn.credihealth.com/system/images/blog/6966/original/superfoods-to-improve-eyesight.webp",
+    "date": "2023/02/02",
+    "link": "../blog/health/improve-eyesight.html"
+}, {
+    "name": "The Best Daily Skincare",
+    "desc": "Starting a proper skincare routine is no easy feat. The store aisles are daunting, the TikTok tips and tricks are conflicting and the skincare product reviews are endless...",
+    "img": "https://hips.hearstapps.com/hmg-prod/images/skincare-1588698347.png",
+    "date": "2023/05/07",
+    "link": "../blog/health/the-best-daily-skincare.html"
+}, {
+    "name": "Ten Things You Can Do for Your Mental Health",
+    "desc": "In this guide, we will teach you how to make your own DIY fence that prevents your cats from escaping...",
+    "img": "https://uhs.umich.edu/sites/default/files/styles/wide/public/2023-07/man-playing-basketball.jpg?itok=yXlkySz-",
+    "date": "2023/07/20",
+    "link": "../blog/health/mental-health.html"
+}, {
+    "name": "How to Choose Healthy Cat Food Brands",
+    "desc": "People strive to lose weight for myriad reasons, and many fall into the fad diet trap promising real results fast....",
+    "img": "https://www.forbes.com/health/wp-content/uploads/2022/01/how_to_lose_weight_fast.jpeg.jpg",
+    "date": "2023/07/19",
+    "link": "../blog/health/how-to-lose-weight-fast.html"
 }]
