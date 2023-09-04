@@ -289,5 +289,53 @@
         "img": "https://www.pawlicy.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fub3bwfd53mwy%2F2mUtHnpe10NjMLYPztbg5r%2F7c72aecbd442902dcd677a545f75e026%2Fhousehold_hazards_for_dogs.png&w=3840&q=75",
         "link": "https://www.pawlicy.com/blog/household-hazards-for-dogs/",
         "date": "2023/07/24"
+    }, {
+        "name": "Spoil your dog on its birthday",
+        "img": "../assets/img/gallery/yarrah-healthy-snacks-for-dogs_400x400.png",
+        "link": "https://www.yarrah.com/en/blog/spoil-your-dog-on-its-birthday/",
+        "date": "2023/07/24",
+        "des": "Your dog is an important part of your family, which is why your dog's birthday should not be ignored. Fortunately, there are plenty of things you can do to give your dog just a little more attention...."
+    }, {
+        "name": "Is my cat pregnant?",
+        "img": "../assets/img/gallery/Yarrah-cat-pregnant_400x400.png",
+        "link": "https://www.yarrah.com/en/blog/is-my-cat-pregnant/",
+        "date": "2023/07/24",
+        "des": "If your cat normally has a slim profile but has gained a lot of weight recently, she may be pregnant. Before you go to the vet, it is a good idea to take a look at the signs associated with a cat's pregnancy...."
+    }, {
+        "name": "Why is my dog not eating?",
+        "img": "../assets/img/gallery/yarrah-why-is-my-dog-not-eating_400x400.png",
+        "link": "https://www.yarrah.com/en/blog/why-is-my-dog-not-eating/",
+        "date": "2023/07/24",
+        "des": "Your dog won’t eat or is eating poorly and you are worried. When your dog is not eating it could be really concerning, especially if they usually watch the food on your plate like a hawk...."
+    }, {
+        "name": "Dog or cat food: in a paper bag or with a layer of plastic?",
+        "img": "../assets/img/gallery/Yarrah-plastic-or-paper_400x400.png",
+        "link": "https://www.yarrah.com/en/blog/dog-or-cat-food-in-a-paper-bag-or-with-a-layer-of-plastic/",
+        "date": "2023/07/24",
+        "des": "Paper is gaining popularity as a packaging material. We want to eliminate plastic packaging material because of its environmental impact...."
+    }, {
+        "name": "How to Pick the Perfect Douglas Fur: Adopt Him!",
+        "img": "../assets/img/gallery/20230713_as_douglas_fur_main.jpg",
+        "link": "../blog/animals-or-pets/dog-care.html",
+        "date": "2023/07/24",
+        "des": "If you’ve ever wanted to keep a Douglas “Fur” in your home all year round, this Los Angeles-based cat is for you!"
+    }, {
+        "name": "Fleas and Ticks",
+        "img": "../assets/img/gallery/pet-care_fleas-and-ticks_main-image.jpg",
+        "link": "../blog/animals-or-pets/fleas-ticks.html",
+        "date": "2023/07/24",
+        "des": "Fleas and ticks are two of the most frequent pet care concerns in America. While prevention is the best defense against these parasites,..."
+    }, {
+        "name": "10 Common Dog Behavior Problems and Solutions",
+        "img": "https://www.thesprucepets.com/thmb/w6nu0Govkxrr7LucbQ9zvYvnRKU=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/common-dog-behavior-problems-1118278-FINAL-ded95d80436a49cebd5261298dd593c0.png",
+        "link": "https://www.thesprucepets.com/common-dog-behavior-problems-1118278",
+        "date": "2023/07/24",
+        "des": "Dog behavior problems are often misunderstood or mishandled by dog owners...."
+    }, {
+        "name": "10 Tasty and Healthy Treats That Birds Love",
+        "img": "https://www.thesprucepets.com/thmb/xch2gQAJRH8Y8FJhLaQFKhMavII=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/DanielOsterkamp-Parroteatingbanana-5bb8c5d4c9e77c005165295e.jpg",
+        "link": "../blog/animals-or-pets/tasty-and-healthy-treats.html",
+        "date": "2023/07/24",
+        "des": "Sharing a meal with your bird can be a wonderful bonding experience, but did you know that it can also benefit your pet's health?..."
     }
 ]
