@@ -1,0 +1,45 @@
+{
+    "ebike": [{
+            "link": "./technology/DYU-King-750.html",
+            "name": "DYU King 750 Review",
+            "img": "../assets/img/gallery/111_d92edd05-f085-470b-8694-934492036a2d_650x-transformed.png",
+            "desc": "Today, we're taking a closer look at the DYU King 750, a fat tire eBike that promises a comfortable and smooth ride with its big range and 26-inch fat wheels.",
+            "date": "2023/01/22"
+        },
+        {
+            "link": "./technology/Tenways-AGO-X-im-Test.html",
+            "name": "Tenways AGO X im Test: SUV-E-Bike zum kleinen Preis",
+            "img": "https://ebike-news.de/wp-content/uploads/2023/06/IMG_0546-scaled.jpeg",
+            "desc": "Das Tenways AGO X E-Bike ist das neueste Modell des aufstrebenden E-Bike-Herstellers Tenways....",
+            "date": "2023/09/02"
+        },
+         {
+            "link": "./technology/Tenways-CGO600-Pro.html",
+            "name": "Tenways CGO600 Pro e-bike review",
+            "img": "https://cdn.mos.cms.futurecdn.net/hgMXpPweQA8Peqvqt8BngU-1024-80.jpg.webp",
+            "desc": "More of a cruiser bike than superbike, the Tenways CGO600 Pro is perfect for a daily commute and impresses with its 50+-mile range.....",
+            "date": "2023/09/03"
+        },
+        {
+            "link": "https://dyucycle.com/blogs/news/experience-effortless-travel-with-the-dyu-a1f-electric-city-bike",
+            "name": "Emerging Trends in Information Technology for 2023",
+            "img": "../assets/img/gallery/A1F_a0410e77-785f-46ca-b62e-3c1dea8c6157_650x-transformed.png",
+            "desc": "Are you tired of the daily traffic and looking for a more efficient way to commute? Or perhaps you're an adventurer at heart, seeking a compact and portable companion for your urban explorations?",
+            "date": "2023/02/27"
+        },
+        {
+            "link": "https://dyucycle.com/blogs/news/discover-the-dyu-c6-the-ultimate-city-electric-bike",
+            "name": "Discover the DYU C6: The Ultimate City Electric Bike",
+            "img": "../assets/img/gallery/c6_650x-transformed.png",
+            "desc": "DYU is thrilled to unveil its latest creation, the DYU C6 26-Inch City Electric Bike. With its classic design, exceptional performance, and convenient features, this cutting-edge model promises riders an unparalleled cycling experience.",
+            "date": "2023/05/22"
+        },
+        {
+            "link": "https://dyucycle.com/blogs/news/unveiling-the-dyu-d3f-a-pocket-sized-powerhouse",
+            "name": "Unveiling the DYU D3F – A Pocket-Sized Powerhouse",
+            "img": "../assets/img/gallery/5_80bf8d2f-8284-4ff9-b53a-e91c1a720587_650x-transformed.png",
+            "desc": "Join us today as we delve into a captivating world of compact electric bikes, where the DYU D3F Mini Folding Electric Bike has caught our attention.",
+            "date": "2023/05/01"
+        }
+    ]
+}
