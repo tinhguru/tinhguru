@@ -48,13 +48,15 @@
         window.onload = function () {
             document.getElementById('contact-form').addEventListener('submit', function (event) {
                 event.preventDefault();
-                console.log('SUCCESS!');
 
                 // these IDs from the previous steps
                 emailjs.sendForm('service_ied9c3s', 'template_y1qd22i', this)
                     .then(function () {
+                        console.log('SUCCESS!');
                         document.getElementById("dmform-success").style.display = 'block';
-                    }, function (error) {});
+                    }, function (error) {
+                        console.log('ERROR!', error);
+                    });
             });
         }
     </script>
@@ -402,7 +404,6 @@
         gtag('config', 'UA-23581568-13');
 
         function closeBtn() {
-            console.log("sssssssssssss")
             document.getElementById("popup-id").style.display = "none";
         }
     </script>

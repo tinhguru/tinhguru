@@ -33,7 +33,7 @@ function getListItemPages(id, query, skip) {
       console.error(err);
     })
     .then((data) => {
-      const listData = data.tech.sort((a, b) => {
+      const listData = data.ebike.sort((a, b) => {
         return new Date(b.date).getTime() - new Date(a.date).getTime();
       });
       let listItem = [];
@@ -58,7 +58,7 @@ function getListItemPages(id, query, skip) {
 // Add event listener to table
 function clickPagination(id, q, s) {
   document.getElementById(id).addEventListener("click", function () {
-    const list = document.getElementById("technologyId");
+    const list = document.getElementById("technologyEbikeId");
     while (list.hasChildNodes()) {
       list.removeChild(list.firstChild);
     }
@@ -72,12 +72,12 @@ function clickPagination(id, q, s) {
         "w3-bar-item w3-button w3-hover-black";
     }
     document.getElementById(id).className = "w3-bar-item w3-black w3-button";
-    getListItemPages("technologyId", q, s);
+    getListItemPages("technologyEbikeId", q, s);
   });
 }
 
 document.getElementById("page-first").addEventListener("click", function () {
-  const list = document.getElementById("technologyId");
+  const list = document.getElementById("technologyEbikeId");
   while (list.hasChildNodes()) {
     list.removeChild(list.firstChild);
   }
@@ -93,11 +93,11 @@ document.getElementById("page-first").addEventListener("click", function () {
   document.getElementById("page-one").className =
     "w3-bar-item w3-black w3-button";
 
-  getListItemPages("technologyId", 6, 0);
+  getListItemPages("technologyEbikeId", 6, 0);
 });
 
 document.getElementById("page-end").addEventListener("click", function () {
-  const list = document.getElementById("technologyId");
+  const list = document.getElementById("technologyEbikeId");
   while (list.hasChildNodes()) {
     list.removeChild(list.firstChild);
   }
@@ -112,12 +112,12 @@ document.getElementById("page-end").addEventListener("click", function () {
   }
   document.getElementById("page-ten").className =
     "w3-bar-item w3-black w3-button";
-  getListItemPages("technologyId", 6, 4);
+  getListItemPages("technologyEbikeId", 6, 4);
 });
 // show list ebike
 technologyEbikeBlog("technologyEbikeId");
 // show the first 6 item on list
-getListItemPages("technologyId", 6, 0);
+getListItemPages("technologyEbikeId", 6, 0);
 // listen click action and show item on view list
 clickPagination("page-one", 6, 0);
 clickPagination("page-two", 6, 1);
