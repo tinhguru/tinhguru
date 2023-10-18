@@ -124,7 +124,7 @@
 body {
   font-family: "Poppins", sans-serif;
   font-weight: normal;
-  font-style: normal;
+
   font-size: 16px;
 }
 
@@ -138,7 +138,7 @@ h6 {
   font-family: "Poppins", sans-serif;
   color: #670000;
   margin-top: 0px;
-  font-style: normal;
+
   font-weight: 400;
   text-transform: normal;
 }
@@ -263,9 +263,7 @@ ul {
 }
 
 /* line 120, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_common.scss */
-li {
-  list-style: none;
-}
+li {}
 
 /* line 124, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_common.scss */
 
@@ -300,7 +298,7 @@ li {
   /* line 184, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_common.scss */
 }
 
-/* owl-carousel button style */
+
 /* line 196, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_common.scss */
 
 /* line 215, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_common.scss */
@@ -429,7 +427,7 @@ li {
 
 /* line 421, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_common.scss */
 
-/* button style */
+
 /* line 438, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_common.scss */
 
 /* scrollUp */
@@ -465,12 +463,14 @@ li {
   border: 2px solid transparent;
   box-shadow: 0 0 10px 3px rgba(108, 98, 98, 0.2);
 }
+
 @media (max-width: 575px) {
 
   /* line 442, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_common.scss */
   #back-top {
     right: 16px;
   }
+
   .back-top-a {
     right: 16px;
   }
@@ -1257,7 +1257,7 @@ li {
   width: 100px;
   height: 100px;
   position: relative;
-  border-style: solid;
+
   border-width: 1px;
   border-top-color: #670000;
   border-bottom-color: transparent;
@@ -2161,7 +2161,6 @@ li {
 
 /* line 139, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_h1-hero.scss */
 .header-transparent {
-  position: absolute;
   top: 0;
   right: 0;
   left: 0;
@@ -3722,7 +3721,7 @@ li {
   padding: 15px;
   line-height: 1.733;
   color: #888888;
-  font-style: italic;
+
   margin-top: 25px;
   margin-bottom: 25px;
 }
@@ -4897,7 +4896,7 @@ del {
 
 /* line 443, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_elements.scss */
 .ordered-list li {
-  list-style-type: decimal-leading-zero;
+
   color: #1f2b7b;
   font-weight: 500;
   line-height: 1.82em !important;
@@ -4912,7 +4911,7 @@ del {
 /* line 456, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_elements.scss */
 .ordered-list-alpha li {
   margin-left: 30px;
-  list-style-type: lower-alpha;
+
   color: #1f2b7b;
   font-weight: 500;
   line-height: 1.82em !important;
@@ -4927,7 +4926,7 @@ del {
 /* line 470, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_elements.scss */
 .ordered-list-roman li {
   margin-left: 30px;
-  list-style-type: lower-roman;
+
   color: #1f2b7b;
   font-weight: 500;
   line-height: 1.82em !important;
@@ -5667,7 +5666,7 @@ del {
   margin-bottom: 10px;
 }
 
-/*# sourceMappingURL=style.css.map */
+
 
 /* CSS fontend */
 #containerB {
@@ -5943,8 +5942,7 @@ ul>li>a:hover {
   cursor: pointer;
 }
 
-.modal__trigger {
-}
+.modal__trigger {}
 
 .modal__trigger--active {
   z-index: 10;
@@ -6009,7 +6007,7 @@ img {
 
 @media (max-width: 640px) {
   .demo-btns .modal__trigger {
-      margin-bottom: 0.8rem;
+    margin-bottom: 0.8rem;
   }
 }
 
@@ -6033,4 +6031,86 @@ img {
 
 .demo-close:hover {
   background: rgba(0, 0, 0, 0.6);
+}
+
+.css-19hw6gq {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  padding: 0;
+  font-family: hurmegeometricsans_no3_6, Gilroy, Almarai, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  display: inline-block;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: -0.1px;
+}
+
+@media (min-width: 768px) {
+  .css-19hw6gq:before {
+    content: '';
+
+    width: 0;
+    height: 0;
+    line-height: 0;
+    position: absolute;
+    top: -4px;
+    border-width: 4px 7px 0 0;
+    left: 0;
+    border-color: transparent #2D2D2D transparent transparent;
+  }
+}
+.css-1yrybsi {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  padding: 0;
+  font-family: hurmegeometricsans_no3_6, Gilroy, Almarai, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: auto;
+}
+
+.css-1yrybsi :not(:last-child) {
+  -webkit-margin-end: 8px;
+  margin-inline-end: 8px;
+}
+.css-1s0zz0c {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  padding: 0;
+  font-family: hurmegeometricsans_no3_6, Gilroy, Almarai, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.css-1s0zz0c [data-role='score-wording'] {
+  display: none;
+}
+
+.css-1s0zz0c [data-role='wording-stars-wrapper'] [data-role='score-stars'] {
+  font-size: 12px;
+}
+
+@media (min-width: 1000px) {
+  .css-1s0zz0c [data-role='score-wording'] {
+    display: block;
+  }
 }
