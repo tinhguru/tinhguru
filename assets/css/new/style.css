@@ -27307,28 +27307,6 @@
         }
     }
 
-
-    box-sizing: border-box;
-    margin: 0;
-    min-width: 0;
-    padding: 0;
-    font-family: hurmegeometricsans_no3_6,
-    Gilroy,
-    Almarai,
-    Arial,
-    sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    -webkit-margin-end: 4px;
-    margin-inline-end: 4px;
-    -webkit-transition: opacity 0.24s ease,
-    -webkit-transform 0.3s ease;
-    transition: opacity 0.24s ease,
-    transform 0.3s ease;
-    }
-
-
-
     .css-tdufh2 {
         box-sizing: border-box;
         margin: 0;
@@ -30499,10 +30477,6 @@
     .css-16o37ua:not(:last-of-type) {
         border-inline-end: 1px solid;
     }
-
-
-    pros &amp;
-
 
     .css-inimnz {
         display: -webkit-box;
