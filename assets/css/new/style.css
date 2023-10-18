@@ -15678,12 +15678,6 @@
         box-shadow: 0 0 8px rgba(142, 68, 173, 0.9)
     }
 
-    @media {
-        .chart-filter__range {
-            min-height: initial
-        }
-    }
-
     @media all and (-webkit-min-device-pixel-ratio: 0) and (min-resolution: 0.001dpcm) {
         .chart-filter__range {
             min-height: initial
